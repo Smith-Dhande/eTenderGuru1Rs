@@ -1,106 +1,284 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { translations } from '../data/translations';
+
+const PHILOSOPHY_LOCALES = {
+  en: {
+    manifestoBadge: "02 — OUR PHILOSOPHY",
+    manifestoSeal: "100% PRACTICAL • ZERO BROKER DEPENDENCY",
+    pillarTags: ["ZERO FINANCIAL RISK", "LIVE PORTAL DEMOS", "100% SELF-RELIANT", "GROUND REALITY"],
+    takeaways: [
+      "No ₹15,000 upfront risk",
+      "Decode live NITs directly",
+      "Eliminate agent commissions",
+      "Battle-tested compliance rules"
+    ],
+    realityCheckTitle: "THE GROUND REALITY CHECK",
+    realityCheckSubtitle: "Why the conventional coaching system fails contractors",
+    oldWayHeader: "Old Coaching & Middlemen",
+    newWayHeader: "eTender Guru ₹1 Model",
+    comparisonRows: [
+      {
+        aspect: "Upfront Cost",
+        old: "₹10,000 – ₹25,000 fee before you even see a real portal screen",
+        newWay: "₹1 symbolic token — test, inspect and learn with zero risk"
+      },
+      {
+        aspect: "Teaching Method",
+        old: "Boring textbook slides and obsolete classroom theories",
+        newWay: "Live Mahatender & GeM screen walkthroughs and real NIT decoding"
+      },
+      {
+        aspect: "Your Independence",
+        old: "Keeps you reliant on third-party brokers charging heavy percentages",
+        newWay: "Equips you to evaluate, prepare documents, and submit bids yourself"
+      },
+      {
+        aspect: "Disqualification Risk",
+        old: "Ignores ground compliance; 80% of bids get disqualified on minor errors",
+        newWay: "Rigorous technical document preparation to ensure qualification"
+      }
+    ],
+    actionCta: "EXPLORE ₹1 COURSES NOW",
+    trustNote: "Instant WhatsApp Access • English & Marathi • 100% Practical"
+  },
+  mr: {
+    manifestoBadge: "०२ — आमची भूमिका",
+    manifestoSeal: "१००% प्रॅक्टिकल • शून्य मध्यस्थ",
+    pillarTags: ["शून्य आर्थिक धोका", "थेट पोर्टल प्रॅक्टिकल", "१००% स्वावलंबन", "मैदानी वास्तव"],
+    takeaways: [
+      "₹१५,०००+ चा धोका नाही",
+      "लाईव्ह NIT थेट समजून घ्या",
+      "दलालांचे कमिशन बंद करा",
+      "अचूक सरकारी नियम व खात्री"
+    ],
+    realityCheckTitle: "मैदानी वास्तविकता पडताळणी",
+    realityCheckSubtitle: "पारंपरिक क्लासेस व दलालांची पद्धत कंत्राटदारांना मागे का ठेवते?",
+    oldWayHeader: "जुने क्लासेस व मध्यस्थ",
+    newWayHeader: "eTender Guru ₹१ मॉडेल",
+    comparisonRows: [
+      {
+        aspect: "सुरुवातीची फी",
+        old: "पोर्टल न पाहताच आधी ₹१०,००० ते ₹२५,००० ची जबरदस्तीची फी",
+        newWay: "फक्त ₹१ चे टोकन — कोणताही आर्थिक धोका न पत्करता थेट सुरुवात"
+      },
+      {
+        aspect: "शिकवण्याची पद्धत",
+        old: "केवळ जुन्या थिअरी स्लाईड्स आणि पुस्तकी व्याख्याने",
+        newWay: "लाईव्ह Mahatender व GeM स्क्रीन, प्रत्यक्ष NIT वाचन व डॉक्युमेंट्स"
+      },
+      {
+        aspect: "स्वावलंबन",
+        old: "कंत्राटदाराला कायम एजंट्स आणि दलालांवर अवलंबून ठेवणे",
+        newWay: "स्वतःच्या बळावर टेंडर शोधणे, भरणे आणि जिंकण्यासाठी पूर्ण सक्षम करणे"
+      },
+      {
+        aspect: "टेंडर बाद होण्याचा धोका",
+        old: "तांत्रिक नियमांकडे दुर्लक्ष; छोट्या चुकांमुळे ८०% बिड्स बाद होतात",
+        newWay: "तांत्रिक क्वालिफिकेशनचे काटेकोर ज्ञान, जेणेकरून टेंडर बाद होणार नाही"
+      }
+    ],
+    actionCta: "₹१ कोर्सेस आताच पहा",
+    trustNote: "तात्काळ ऍक्सेस • मराठी व इंग्रजी • व्हॉट्सॲपवर डिलिव्हरी"
+  }
+};
 
 export const WhyOneRupee = ({ onExploreClick }) => {
   const { language } = useLanguage();
   const t = translations[language].whyOneRupee;
+  const loc = PHILOSOPHY_LOCALES[language] || PHILOSOPHY_LOCALES.en;
+
+  const [activePillar, setActivePillar] = useState(0);
 
   return (
     <section
       id="why-one-rupee"
-      className="py-16 sm:py-20 lg:py-24 bg-[#f3efe9]/60 border-y border-[#e6e2db]"
-      aria-labelledby="why-heading"
+      className="philosophy-section"
+      aria-labelledby="philosophy-main-heading"
     >
-      <div className="site-container">
+      {/* Decorative Outlined Architectural Wordmark Layer */}
+      <div className="philosophy-watermark" aria-hidden="true">
+        <span>₹1 PHILOSOPHY</span>
+      </div>
 
-        {/* Section Header */}
-        <div className="max-w-3xl mb-12 sm:mb-16 text-left">
-          {/* Eyebrow */}
-          <div className="inline-flex items-center gap-2 mb-3">
-            <span className="text-xs sm:text-sm font-bold tracking-widest uppercase text-[#f15a24]">
-              {t.eyebrow}
-            </span>
-            <span className="h-0.5 w-8 bg-[#f15a24]" aria-hidden="true"></span>
+      <div className="section-container">
+        {/* Section Header Row */}
+        <div className="philosophy-header-row">
+          <div>
+            {/* Eyebrow */}
+            <div className="courses-eyebrow-wrap">
+              <span className="courses-eyebrow">{loc.manifestoBadge}</span>
+            </div>
+
+            {/* Editorial Heading */}
+            <h2 className="philosophy-heading" id="philosophy-main-heading">
+              <span className="philosophy-heading-serif">{t.titleSerif}</span>
+              <span className="philosophy-heading-impact">{t.titleImpact}</span>
+            </h2>
           </div>
 
-          {/* Heading */}
-          <h2
-            id="why-heading"
-            className="text-3xl sm:text-4xl lg:text-5xl leading-tight mb-4"
-          >
-            <span className="font-editorial-serif text-[#0f172a] mr-2">
-              {t.titleSerif}
-            </span>
-            <span className="font-editorial-impact text-[#f15a24] uppercase tracking-wide">
-              {t.titleImpact}
-            </span>
-          </h2>
-
-          <p className="text-[#475569] text-base sm:text-lg leading-relaxed">
-            {t.support}
-          </p>
+          {/* Subtitle & Seal */}
+          <div className="flex flex-col items-start lg:items-end gap-3 max-w-lg">
+            <p className="philosophy-support-text">
+              {t.support}
+            </p>
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white border border-[#e6e2db] shadow-xs text-[11px] font-bold text-[#f15a24] tracking-wider uppercase">
+              <span className="w-2 h-2 rounded-full bg-[#f15a24] animate-pulse"></span>
+              <span>{loc.manifestoSeal}</span>
+            </div>
+          </div>
         </div>
 
-        {/* 4 Architectural Matrix Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-12">
-          {t.reasons.map((reason, idx) => (
-            <div
-              key={idx}
-              className="p-8 rounded-3xl bg-white border border-[#e6e2db] shadow-xs hover:shadow-lg transition-all duration-300 flex flex-col justify-between text-left group"
-            >
-              <div>
-                <div className="flex items-center justify-between mb-4">
-                  <span className="font-editorial-impact text-2xl text-[#f15a24]">
+        {/* Two-Plane Asymmetric Spread (NOT a standard 3/4 card grid) */}
+        <div className="philosophy-spread-layout">
+
+          {/* Left Plane: Connected Interactive Manifesto Rail */}
+          <div className="manifesto-rail" role="region" aria-label="Philosophy Pillars">
+            {t.reasons.map((reason, idx) => {
+              const isActive = activePillar === idx;
+              const tag = loc.pillarTags[idx] || "PRACTICAL STANDARD";
+              const takeaway = loc.takeaways[idx] || "Direct eTender Guru Principle";
+
+              return (
+                <div
+                  key={idx}
+                  className={`manifesto-item ${isActive ? 'active' : ''}`}
+                  onClick={() => setActivePillar(idx)}
+                  onMouseEnter={() => setActivePillar(idx)}
+                  role="button"
+                  tabIndex={0}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault();
+                      setActivePillar(idx);
+                    }
+                  }}
+                  aria-pressed={isActive}
+                >
+                  {/* Numeral Badge */}
+                  <div className="manifesto-num-badge" aria-hidden="true">
                     {reason.num}
-                  </span>
-                  <div className="w-8 h-8 rounded-full bg-[#fff5f0] flex items-center justify-center text-[#f15a24] group-hover:scale-110 transition-transform">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                    </svg>
+                  </div>
+
+                  {/* Narrative Content */}
+                  <div className="manifesto-content">
+                    <div className="manifesto-top-meta">
+                      <span className="manifesto-tag">{tag}</span>
+                      <span className="manifesto-highlight-pill">
+                        <span className="w-1.5 h-1.5 rounded-full bg-[#f15a24]"></span>
+                        <span>Pillar {idx + 1} of 4</span>
+                      </span>
+                    </div>
+
+                    <h3 className="manifesto-item-title">
+                      {reason.title}
+                    </h3>
+
+                    <p className="manifesto-item-desc">
+                      {reason.desc}
+                    </p>
+
+                    {/* Ground Takeaway Footer */}
+                    <div className="manifesto-takeaway-bar">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#f15a24" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg>
+                      <span>{takeaway}</span>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
+          {/* Right Plane: Ground Reality Ledger + Obsidian Plaque */}
+          <div className="philosophy-right-col">
+
+            {/* Dossier Card: The Reality Check Comparison */}
+            <div className="reality-ledger-card">
+              <div className="reality-ledger-header">
+                <div className="reality-badge">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  </svg>
+                  <span>Scorecard</span>
+                </div>
+                <h3 className="reality-ledger-title">{loc.realityCheckTitle}</h3>
+                <p className="reality-ledger-sub">{loc.realityCheckSubtitle}</p>
+              </div>
+
+              {/* Table Ledger Rows */}
+              <div className="reality-table">
+                {loc.comparisonRows.map((row, rIdx) => (
+                  <div key={rIdx} className="reality-row">
+                    <div className="reality-row-label">
+                      {row.aspect}
+                    </div>
+                    <div className="reality-comparison-split">
+                      <div className="reality-cell-old">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                          <line x1="18" y1="6" x2="6" y2="18"></line>
+                          <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                        <span>{row.old}</span>
+                      </div>
+                      <div className="reality-cell-new">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                          <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        <span>{row.newWay}</span>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Obsidian Plaque: Founder's Certified Mission */}
+            <div className="philosophy-obsidian-card">
+              <span className="philosophy-quote-mark" aria-hidden="true">“</span>
+              <p className="philosophy-quote-text">
+                {t.quote}
+              </p>
+
+              <div className="philosophy-author-wrap">
+                <div className="philosophy-author-info">
+                  <div className="philosophy-author-avatar">TG</div>
+                  <div>
+                    <p className="philosophy-author-name">{t.quoteAuthor}</p>
+                    <p className="philosophy-author-role">eTender Guru • Ground Practice</p>
                   </div>
                 </div>
 
-                <h3 className="text-xl font-bold text-[#0f172a] mb-2.5">
-                  {reason.title}
-                </h3>
-
-                <p className="text-[#475569] text-sm sm:text-base leading-relaxed">
-                  {reason.desc}
-                </p>
+                <div className="hidden sm:flex items-center gap-1.5 text-xs text-[#f15a24] font-bold">
+                  <span className="w-2 h-2 rounded-full bg-[#f15a24]"></span>
+                  <span>Verified</span>
+                </div>
               </div>
 
-              <div className="pt-6 mt-6 border-t border-[#f3efe9] flex items-center gap-2 text-xs font-semibold text-[#f15a24]">
-                <span className="w-1.5 h-1.5 rounded-full bg-[#f15a24]"></span>
-                <span>Practical eTender Guru Standard</span>
+              {/* Seamless Action Button linking down to courses */}
+              <button
+                type="button"
+                onClick={onExploreClick}
+                className="philosophy-cta-btn"
+                aria-label={loc.actionCta}
+              >
+                <span>{loc.actionCta}</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+
+              <div className="philosophy-trust-pills">
+                <span>{loc.trustNote}</span>
               </div>
             </div>
-          ))}
-        </div>
 
-        {/* Editorial Quote Box */}
-        <div className="rounded-3xl bg-[#0f172a] text-white p-8 sm:p-10 lg:p-12 relative overflow-hidden text-left shadow-xl">
-          <div className="relative z-10 max-w-3xl">
-            <span className="font-editorial-serif text-5xl sm:text-6xl text-[#f15a24] block leading-none mb-2">
-              “
-            </span>
-            <p className="font-editorial-serif text-lg sm:text-2xl text-white/95 leading-relaxed italic mb-6">
-              {t.quote}
-            </p>
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-[#f15a24] flex items-center justify-center text-white font-bold text-sm">
-                TG
-              </div>
-              <div>
-                <p className="font-bold text-sm sm:text-base text-white">
-                  {t.quoteAuthor}
-                </p>
-                <p className="text-xs text-white/70">
-                  Government Tender Expert & Consultant
-                </p>
-              </div>
-            </div>
           </div>
+
         </div>
 
       </div>
