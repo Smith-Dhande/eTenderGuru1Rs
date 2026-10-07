@@ -877,506 +877,369 @@ body {
 }
 
 /* ==========================================================================
-   4B. PHILOSOPHY / WHY ₹1 (Creative Editorial Manifesto Spread)
+   4B. PHILOSOPHY / WHY ₹1 (Signature Orange Marquee Banner - Matching Reference)
    ========================================================================== */
-.philosophy-section {
-  padding: 84px 0 92px;
-  background-color: #f7f4ee;
-  border-top: 1px solid var(--color-border-light);
-  border-bottom: 1px solid var(--color-border-light);
+.philosophy-banner-wrapper {
   position: relative;
-  overflow: hidden;
+  width: 100%;
+  max-width: 1600px;
+  margin: 54px auto;
+  padding: 0 18px; /* Identical side margins to Hero and Footer banners */
+  box-sizing: border-box;
 }
 
-.philosophy-watermark {
+.philosophy-orange-banner {
+  background-color: #f15a24; /* Signature Rich Matte Orange */
+  border-radius: 28px;
+  padding: 48px 0;
+  color: #ffffff;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  box-shadow: 0 16px 40px rgba(241, 90, 36, 0.2);
+}
+
+.philosophy-split-layout {
+  display: grid;
+  grid-template-columns: 1fr 440px;
+  gap: 36px;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Left Column: Moving Marquee of Porcelain Cards */
+.philosophy-left-marquee-col {
+  overflow: hidden;
+  position: relative;
+  min-width: 0;
+  width: 100%;
+}
+
+.philosophy-marquee-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 12px 0;
+  mask-image: linear-gradient(to right, transparent 0%, black 6%, black 94%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 6%, black 94%, transparent 100%);
+}
+
+.philosophy-marquee-track {
+  display: flex;
+  gap: 20px;
+  width: max-content;
+  animation: philosophyMarqueeRTL 34s linear infinite;
+  will-change: transform;
+}
+
+.philosophy-marquee-container:hover .philosophy-marquee-track {
+  animation-play-state: paused;
+}
+
+@keyframes philosophyMarqueeRTL {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-50% - 10px));
+  }
+}
+
+/* Unique Luxe Porcelain Cards on Orange Surface */
+.philosophy-step-card {
+  background: linear-gradient(145deg, #ffffff 0%, #fffdfa 100%);
+  border: 1px solid rgba(255, 255, 255, 0.95);
+  border-radius: 18px;
+  width: 360px;
+  min-width: 360px;
+  flex-shrink: 0;
+  padding: 26px 28px 24px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 
+    0 14px 36px rgba(0, 0, 0, 0.14),
+    0 2px 6px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease;
+  text-align: left;
+}
+
+.philosophy-step-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 
+    0 20px 44px rgba(0, 0, 0, 0.22),
+    0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Giant Subtle Watermark Numeral in Anton */
+.philosophy-watermark-num {
+  font-family: var(--font-impact);
+  font-size: 6.4rem;
+  line-height: 0.75;
+  color: rgba(241, 90, 36, 0.09);
   position: absolute;
-  top: 18px;
-  right: clamp(10px, 4vw, 50px);
-  font-family: var(--font-serif);
-  font-size: clamp(4rem, 10vw, 9.5rem);
-  font-weight: 400;
-  line-height: 0.9;
-  letter-spacing: -0.02em;
-  color: transparent;
-  -webkit-text-stroke: 1.5px rgba(15, 23, 42, 0.04);
-  white-space: nowrap;
+  top: 10px;
+  left: 12px;
   pointer-events: none;
   user-select: none;
   z-index: 1;
+  letter-spacing: -0.04em;
 }
 
-.philosophy-header-row {
+.philosophy-step-header {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 36px;
-  margin-bottom: 48px;
-  text-align: left;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
   position: relative;
   z-index: 2;
 }
 
-.philosophy-heading {
-  margin: 0;
+.philosophy-step-dash {
+  width: 24px;
+  height: 2.5px;
+  background-color: #ea580c;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.philosophy-step-tag {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #ea580c;
+}
+
+.philosophy-step-title {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 400;
+  color: #0b0f19;
+  line-height: 1.25;
+  margin: 0 0 10px 0;
+  position: relative;
+  z-index: 2;
+  letter-spacing: -0.01em;
+}
+
+.philosophy-step-desc {
+  font-family: var(--font-body);
+  font-size: 0.84rem;
+  color: #475569;
+  line-height: 1.5;
+  margin: 0 0 14px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.philosophy-step-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #ea580c;
+  background: #fff4ed;
+  border: 1px solid rgba(234, 88, 12, 0.15);
+  padding: 3px 8px;
+  border-radius: 6px;
+  width: fit-content;
+  position: relative;
+  z-index: 2;
+}
+
+/* Right Column: Heading, Supporting Narrative, Founder Quote, Tactile Action */
+.philosophy-right-text-col {
   display: flex;
-  align-items: baseline;
-  flex-wrap: wrap;
-  gap: 12px;
-  line-height: 0.95;
+  flex-direction: column;
+  gap: 14px;
+  z-index: 2;
+  padding-right: 48px;
+  padding-left: 12px;
+  text-align: left;
+}
+
+.philosophy-eyebrow-wrap {
+  margin-bottom: 2px;
+}
+
+.philosophy-eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.philosophy-heading {
+  display: flex;
+  flex-direction: column;
+  line-height: 0.94;
+  margin: 0;
 }
 
 .philosophy-heading-serif {
   font-family: var(--font-serif);
-  font-size: clamp(2.3rem, 3.8vw, 3.6rem);
+  font-size: clamp(2.2rem, 3.2vw, 2.75rem);
   font-weight: 400;
+  color: #ffffff;
   letter-spacing: -0.02em;
-  color: var(--color-text-main);
 }
 
 .philosophy-heading-impact {
   font-family: var(--font-impact);
-  font-size: clamp(2.5rem, 4.2vw, 4rem);
+  font-size: clamp(2.5rem, 3.8vw, 3.2rem);
   font-weight: 400;
-  letter-spacing: 0.02em;
+  color: #ffffff;
   text-transform: uppercase;
-  color: var(--color-orange-primary);
+  letter-spacing: 0.02em;
+  margin-top: 2px;
+}
+
+.philosophy-heading-dot {
+  color: #0b0f19;
+  display: inline;
+}
+
+.philosophy-support-block {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-top: 4px;
+}
+
+.philosophy-support-divider {
+  width: 2px;
+  height: 42px;
+  background-color: rgba(255, 255, 255, 0.45);
+  flex-shrink: 0;
+  margin-top: 3px;
 }
 
 .philosophy-support-text {
   font-family: var(--font-body);
-  font-size: 1.02rem;
-  color: var(--color-text-muted);
-  line-height: 1.6;
-  max-width: 540px;
-  margin: 0;
-}
-
-/* Two-Plane Asymmetric Spread */
-.philosophy-spread-layout {
-  display: grid;
-  grid-template-columns: 1.18fr 0.82fr;
-  gap: 36px;
-  align-items: start;
-  position: relative;
-  z-index: 2;
-}
-
-/* Left Plane: Connected Manifesto Rail */
-.manifesto-rail {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.manifesto-rail::before {
-  content: '';
-  position: absolute;
-  top: 36px;
-  bottom: 36px;
-  left: 31px;
-  width: 2px;
-  background: linear-gradient(180deg, var(--color-orange-primary) 0%, rgba(241, 90, 36, 0.25) 85%, transparent 100%);
-  z-index: 1;
-}
-
-.manifesto-item {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-  background: #ffffff;
-  border: 1px solid var(--color-border-light);
-  border-radius: 20px;
-  padding: 24px;
-  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
-  text-align: left;
-  cursor: pointer;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
-}
-
-.manifesto-item:hover,
-.manifesto-item.active {
-  border-color: var(--color-orange-primary);
-  box-shadow: 0 10px 28px rgba(241, 90, 36, 0.08), 0 2px 6px rgba(0, 0, 0, 0.04);
-  transform: translateY(-2px);
-}
-
-.manifesto-num-badge {
-  flex-shrink: 0;
-  width: 52px;
-  height: 52px;
-  border-radius: 14px;
-  background: var(--color-orange-light);
-  border: 1.5px solid rgba(241, 90, 36, 0.22);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-impact);
-  font-size: 1.7rem;
-  color: var(--color-orange-primary);
-  letter-spacing: 0.02em;
-  transition: all 0.2s ease;
-}
-
-.manifesto-item:hover .manifesto-num-badge,
-.manifesto-item.active .manifesto-num-badge {
-  background: var(--color-orange-primary);
-  color: #ffffff;
-  border-color: var(--color-orange-primary);
-  transform: scale(1.05);
-  box-shadow: 0 4px 12px rgba(241, 90, 36, 0.3);
-}
-
-.manifesto-content {
-  flex: 1;
-  min-width: 0;
-}
-
-.manifesto-top-meta {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  margin-bottom: 8px;
-  flex-wrap: wrap;
-}
-
-.manifesto-tag {
-  font-family: var(--font-body);
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--color-orange-primary);
-  background: rgba(241, 90, 36, 0.08);
-  padding: 3px 8px;
-  border-radius: 6px;
-}
-
-.manifesto-highlight-pill {
-  font-family: var(--font-body);
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: #475569;
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.manifesto-item-title {
-  font-family: var(--font-heading);
-  font-size: 1.22rem;
-  font-weight: 700;
-  color: var(--color-text-main);
-  margin: 0 0 8px 0;
-  line-height: 1.3;
-}
-
-.manifesto-item-desc {
-  font-family: var(--font-body);
   font-size: 0.92rem;
-  color: var(--color-text-muted);
+  color: rgba(255, 255, 255, 0.92);
   line-height: 1.55;
   margin: 0;
 }
 
-.manifesto-takeaway-bar {
-  margin-top: 14px;
-  padding-top: 12px;
-  border-top: 1px dashed #ede8e1;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 0.78rem;
-  font-weight: 600;
-  color: var(--color-text-main);
-}
-
-/* Right Plane: Ground Reality Ledger + Obsidian Plaque */
-.philosophy-right-col {
-  display: flex;
-  flex-direction: column;
-  gap: 22px;
-}
-
-/* Reality Check Dossier Card */
-.reality-ledger-card {
-  background: #ffffff;
-  border: 1px solid var(--color-border-light);
-  border-radius: 24px;
-  padding: 28px 24px 22px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
-  text-align: left;
-}
-
-.reality-ledger-header {
-  margin-bottom: 20px;
-  padding-bottom: 16px;
-  border-bottom: 1px solid var(--color-border-light);
-}
-
-.reality-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-family: var(--font-body);
-  font-size: 0.74rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--color-orange-primary);
-  margin-bottom: 6px;
-}
-
-.reality-ledger-title {
-  font-family: var(--font-impact);
-  font-size: 1.45rem;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  color: var(--color-text-main);
-  margin: 0 0 4px 0;
-}
-
-.reality-ledger-sub {
-  font-family: var(--font-body);
-  font-size: 0.85rem;
-  color: var(--color-text-muted);
-  margin: 0;
-  line-height: 1.4;
-}
-
-.reality-table {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
-
-.reality-row {
+/* Glass Founder Quote Box */
+.philosophy-quote-box {
+  background: rgba(0, 0, 0, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.22);
   border-radius: 14px;
-  background: #faf8f5;
-  border: 1px solid #eeeae3;
-  padding: 12px 14px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  transition: all 0.2s ease;
-}
-
-.reality-row:hover {
-  background: #fdfcfb;
-  border-color: rgba(241, 90, 36, 0.3);
-}
-
-.reality-row-label {
-  font-family: var(--font-body);
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #64748b;
-}
-
-.reality-comparison-split {
-  display: grid;
-  grid-template-columns: 1fr 1.15fr;
-  gap: 12px;
-  align-items: start;
-}
-
-.reality-cell-old {
-  display: flex;
-  align-items: flex-start;
-  gap: 6px;
-  font-size: 0.8rem;
-  color: #64748b;
-  line-height: 1.35;
-}
-
-.reality-cell-old svg {
-  color: #ef4444;
-  flex-shrink: 0;
-  margin-top: 2px;
-}
-
-.reality-cell-new {
-  display: flex;
-  align-items: flex-start;
-  gap: 6px;
-  font-size: 0.82rem;
-  font-weight: 600;
-  color: #0f172a;
-  line-height: 1.35;
-}
-
-.reality-cell-new svg {
-  color: #10b981;
-  flex-shrink: 0;
-  margin-top: 2px;
-}
-
-/* Obsidian Founder Manifesto Plaque */
-.philosophy-obsidian-card {
-  background: #0f172a;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 24px;
-  padding: 28px 24px 24px;
-  color: #ffffff;
-  text-align: left;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.18);
-}
-
-.philosophy-obsidian-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: linear-gradient(90deg, #f15a24 0%, #ff8c42 100%);
-}
-
-.philosophy-quote-mark {
-  font-family: var(--font-serif);
-  font-size: 3.8rem;
-  line-height: 0.6;
-  color: var(--color-orange-primary);
-  margin-bottom: 12px;
-  display: block;
+  padding: 14px 18px;
+  margin-top: 6px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
 .philosophy-quote-text {
   font-family: var(--font-serif);
-  font-size: 1.05rem;
-  font-style: italic;
-  line-height: 1.6;
-  color: rgba(255, 255, 255, 0.94);
-  margin: 0 0 20px 0;
-}
-
-.philosophy-author-wrap {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  padding-top: 14px;
-  border-top: 1px solid rgba(255, 255, 255, 0.12);
-  margin-bottom: 20px;
-}
-
-.philosophy-author-info {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.philosophy-author-avatar {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  background: var(--color-orange-primary);
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-impact);
-  font-size: 0.95rem;
-  letter-spacing: 0.05em;
-  flex-shrink: 0;
-}
-
-.philosophy-author-name {
-  font-family: var(--font-body);
   font-size: 0.92rem;
-  font-weight: 700;
+  font-style: italic;
+  line-height: 1.5;
   color: #ffffff;
-  margin: 0;
+  margin: 0 0 6px 0;
 }
 
-.philosophy-author-role {
+.philosophy-quote-author {
   font-family: var(--font-body);
   font-size: 0.74rem;
-  color: rgba(255, 255, 255, 0.65);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.85);
   margin: 0;
 }
 
+/* Tactile Contrast Action Button */
 .philosophy-cta-btn {
-  width: 100%;
-  background: var(--color-orange-primary);
-  color: #ffffff;
+  align-self: flex-start;
+  background: #ffffff;
+  color: #0b0f19;
   font-family: var(--font-body);
   font-size: 0.88rem;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  padding: 13px 18px;
+  padding: 13px 22px;
   border-radius: 12px;
   border: none;
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
   gap: 8px;
   cursor: pointer;
-  transition: all 0.2s ease;
-  box-shadow: 0 4px 14px rgba(241, 90, 36, 0.35);
+  margin-top: 8px;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
 }
 
 .philosophy-cta-btn:hover {
-  background: var(--color-orange-hover);
+  background: #0b0f19;
+  color: #ffffff;
   transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(241, 90, 36, 0.45);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.3);
 }
 
-.philosophy-trust-pills {
-  margin-top: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  font-size: 0.72rem;
-  color: rgba(255, 255, 255, 0.6);
-  flex-wrap: wrap;
+.philosophy-cta-btn:hover svg {
+  transform: translateX(4px);
+}
+
+.philosophy-cta-btn svg {
+  transition: transform 0.2s ease;
 }
 
 @media (max-width: 1024px) {
-  .philosophy-spread-layout {
-    grid-template-columns: 1fr;
+  .philosophy-split-layout {
+    display: flex;
+    flex-direction: column-reverse;
     gap: 32px;
   }
-  .philosophy-header-row {
-    flex-direction: column;
-    gap: 16px;
+  .philosophy-right-text-col {
+    width: 100%;
+    padding: 0 28px;
   }
 }
 
 @media (max-width: 640px) {
-  .philosophy-section {
-    padding: 56px 0 64px;
+  .philosophy-banner-wrapper {
+    padding: 0 12px;
+    margin: 36px auto;
   }
-  .manifesto-rail::before {
-    left: 24px;
+  .philosophy-orange-banner {
+    border-radius: 20px;
+    padding: 36px 0;
   }
-  .manifesto-item {
-    padding: 18px 16px;
-    gap: 14px;
-    border-radius: 16px;
+  .philosophy-split-layout {
+    gap: 22px;
   }
-  .manifesto-num-badge {
-    width: 42px;
-    height: 42px;
-    font-size: 1.4rem;
-    border-radius: 10px;
+  .philosophy-right-text-col {
+    padding: 0 18px;
+    gap: 10px;
   }
-  .manifesto-item-title {
-    font-size: 1.08rem;
+  .philosophy-heading-serif {
+    font-size: 1.95rem;
   }
-  .reality-comparison-split {
-    grid-template-columns: 1fr;
-    gap: 8px;
+  .philosophy-heading-impact {
+    font-size: 2.25rem;
+  }
+  .philosophy-step-card {
+    width: 290px;
+    min-width: 290px;
+    padding: 20px 22px 18px;
+  }
+  .philosophy-watermark-num {
+    font-size: 4.8rem;
   }
 }
 
