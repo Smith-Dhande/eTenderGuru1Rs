@@ -20,6 +20,21 @@ export const WhyNineRupee = ({ onExploreClick }) => {
       aria-labelledby="philosophy-main-heading"
     >
       <div className="philosophy-orange-banner">
+        {/* Subtle Ambient Architectural Blur Spheres */}
+        <div className="philosophy-ambient-glow top-right" aria-hidden="true" />
+        <div className="philosophy-ambient-glow bottom-left" aria-hidden="true" />
+
+        {/* Road Construction Site Image Backdrop */}
+        <div className="philosophy-bg-backdrop" aria-hidden="true">
+          <img
+            src="/road-construction.jpg"
+            alt=""
+            className="philosophy-bg-img"
+            loading="lazy"
+          />
+          <div className="philosophy-bg-overlay" />
+        </div>
+
         <div className="philosophy-split-layout">
 
           {/* Left Column: Moving Marquee of Porcelain Cards */}
@@ -76,16 +91,6 @@ export const WhyNineRupee = ({ onExploreClick }) => {
               <div className="philosophy-support-divider" aria-hidden="true"></div>
               <p className="philosophy-support-text">
                 {t.support}
-              </p>
-            </div>
-
-            {/* Authentic Founder Quote Box */}
-            <div className="philosophy-quote-box">
-              <p className="philosophy-quote-text">
-                “{t.quote}”
-              </p>
-              <p className="philosophy-quote-author">
-                — {t.quoteAuthor}
               </p>
             </div>
 

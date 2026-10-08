@@ -24,12 +24,13 @@ export const CourseGrid = ({ courses, onOpenSyllabus, onEnroll }) => {
           <h2 className="courses-heading" id="courses-main-heading">
             <span className="courses-heading-serif">{t.titleSerif}</span>
             <span className="courses-heading-impact">
-              {t.titleImpact}
-              <span className="text-[#f15a24]">.</span>
+              {(t.titleImpact || '').replace(/\./g, '')}
+              <span className="courses-heading-dot">.</span>
             </span>
           </h2>
 
-          <div className="courses-header-details">
+          <div className="courses-header-details hidden md:flex">
+            <div className="courses-support-divider" aria-hidden="true"></div>
             <p className="courses-support-text">
               {t.support}
             </p>

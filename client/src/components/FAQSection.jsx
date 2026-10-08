@@ -5,98 +5,89 @@ import { translations } from '../data/translations';
 export const FAQSection = () => {
   const { language } = useLanguage();
   const t = translations[language].faq;
-  const [openIndex, setOpenIndex] = useState(0); // First item open by default
+  const [openFaq, setOpenFaq] = useState(0);
 
-  const toggleItem = (index) => {
-    setOpenIndex(openIndex === index ? -1 : index);
+  const toggleFaq = (index) => {
+    setOpenFaq(openFaq === index ? -1 : index);
+  };
+
+  const handleSupportClick = () => {
+    const contactElem = document.getElementById('contact');
+    if (contactElem) {
+      contactElem.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      window.open('https://wa.me/919975917001?text=Hello%2C%20I%20have%20a%20question%20about%20eTender%20Guru%20course', '_blank');
+    }
   };
 
   return (
-    <section
-      id="faq"
-      className="py-16 sm:py-20 lg:py-24 bg-[#f3efe9]/50 border-t border-[#e6e2db]"
-      aria-labelledby="faq-heading"
-    >
-      <div className="site-container">
-
-        {/* Section Header */}
-        <div className="max-w-3xl mb-12 sm:mb-16 text-left">
-          {/* Eyebrow */}
-          <div className="inline-flex items-center gap-2 mb-3">
-            <span className="text-xs sm:text-sm font-bold tracking-widest uppercase text-[#f15a24]">
-              {t.eyebrow}
-            </span>
-            <span className="h-0.5 w-8 bg-[#f15a24]" aria-hidden="true"></span>
+    <section className="faq-section" id="faq" aria-labelledby="faq-main-heading">
+      <div className="section-container faq-section-container">
+        
+        <div className="faq-header-center">
+          <div className="faq-eyebrow-wrap">
+            <span className="faq-eyebrow">{t.eyebrow}</span>
           </div>
 
-          {/* Heading */}
-          <h2
-            id="faq-heading"
-            className="text-3xl sm:text-4xl lg:text-5xl leading-tight mb-4"
-          >
-            <span className="font-editorial-serif text-[#0f172a] mr-2">
-              {t.titleSerif}
-            </span>
-            <span className="font-editorial-impact text-[#f15a24] uppercase tracking-wide">
-              {t.titleImpact}
+          <h2 className="faq-main-heading" id="faq-main-heading">
+            <span className="faq-heading-serif">{t.titleSerif}</span>
+            <span className="faq-heading-impact">
+              {(t.titleImpact || '').replace('.', '')}
+              <span className="faq-heading-dot">.</span>
             </span>
           </h2>
-
-          <p className="text-[#475569] text-base sm:text-lg leading-relaxed">
-            {t.support}
-          </p>
+          
+          <p className="faq-subtitle-desc">{t.support}</p>
         </div>
 
-        {/* Accordion List */}
-        <div className="max-w-3xl space-y-3.5 text-left">
-          {t.items.map((item, idx) => {
-            const isOpen = openIndex === idx;
+        {/* 1-Column FAQ Accordion List */}
+        <div className="faq-single-column-list">
+          {t.items.map((faq, idx) => {
+            const isOpen = openFaq === idx;
             const buttonId = `faq-btn-${idx}`;
             const panelId = `faq-panel-${idx}`;
 
             return (
-              <div
-                key={idx}
-                className={`rounded-2xl border transition-all duration-200 overflow-hidden bg-white ${
-                  isOpen ? 'border-[#f15a24] shadow-md ring-1 ring-[#f15a24]/10' : 'border-[#e6e2db] hover:border-[#cbd5e1]'
-                }`}
-              >
+              <div key={idx} className={`faq-accordion-item ${isOpen ? 'is-open' : ''}`}>
                 <button
                   id={buttonId}
                   type="button"
-                  onClick={() => toggleItem(idx)}
-                  className="w-full py-4.5 px-6 flex items-center justify-between gap-4 text-left font-bold text-base sm:text-lg text-[#0f172a] hover:text-[#f15a24] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[#f15a24] cursor-pointer"
+                  className="faq-question-btn"
+                  onClick={() => toggleFaq(idx)}
                   aria-expanded={isOpen}
                   aria-controls={panelId}
                 >
-                  <span className="leading-snug">{item.q}</span>
-                  <span
-                    className={`shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-transform duration-200 ${
-                      isOpen
-                        ? 'bg-[#f15a24] text-white rotate-180'
-                        : 'bg-[#f3efe9] text-[#64748b]'
-                    }`}
-                    aria-hidden="true"
-                  >
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                      <polyline points="6 9 12 15 18 9"></polyline>
-                    </svg>
+                  <span className="faq-item-num">0{idx + 1}</span>
+                  <span className="faq-question-text">{faq.q}</span>
+                  <span className="faq-toggle-pill" aria-hidden="true">
+                    {isOpen ? '−' : '+'}
                   </span>
                 </button>
-
+                
                 {isOpen && (
-                  <div
-                    id={panelId}
-                    role="region"
-                    aria-labelledby={buttonId}
-                    className="px-6 pb-5 pt-1 text-sm sm:text-base text-[#475569] leading-relaxed border-t border-[#f3efe9] animate-in fade-in duration-150"
-                  >
-                    <p>{item.a}</p>
+                  <div id={panelId} role="region" aria-labelledby={buttonId} className="faq-answer-pane">
+                    <div className="faq-accent-line" aria-hidden="true"></div>
+                    <p className="faq-answer-text">{faq.a}</p>
                   </div>
                 )}
               </div>
             );
           })}
+        </div>
+
+        {/* Direct Support Prompt Banner */}
+        <div className="faq-support-footer">
+          <div className="faq-support-left">
+            <span className="faq-support-prompt">{t.faqHelpPrompt || "Have a specific question about your road tender qualification?"}</span>
+          </div>
+          <button
+            type="button"
+            className="faq-support-btn"
+            onClick={handleSupportClick}
+            aria-label={t.faqHelpCta || "Ask Our Experts"}
+          >
+            {t.faqHelpCta || (language === 'mr' ? 'आमच्याशी संपर्क साधा' : 'Ask Our Experts')}
+          </button>
         </div>
 
       </div>

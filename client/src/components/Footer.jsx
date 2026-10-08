@@ -16,6 +16,21 @@ export const Footer = () => {
   return (
     <div className="footer-viewport-wrapper">
       <footer className="footer-banner" id="footer">
+        {/* Subtle Ambient Architectural Blur Spheres */}
+        <div className="footer-ambient-glow top-right" aria-hidden="true" />
+        <div className="footer-ambient-glow bottom-left" aria-hidden="true" />
+
+        {/* Road Construction Site Image Backdrop */}
+        <div className="footer-bg-backdrop" aria-hidden="true">
+          <img
+            src="/road-construction.jpg"
+            alt=""
+            className="footer-bg-img"
+            loading="lazy"
+          />
+          <div className="footer-bg-overlay" />
+        </div>
+
         {/* Decorative Outlined Editorial Wordmark (Bottom-Right Background) */}
         <div className="footer-editorial-wordmark" aria-hidden="true">
           <span>eTender Guru</span>
@@ -128,9 +143,23 @@ export const Footer = () => {
             <div className="footer-bottom-content">
               <span className="copyright-text">{t.copyright}</span>
               <span className="footer-bar-separator" aria-hidden="true">|</span>
-              <span className="footer-creator-inline-link">
-                {t.builtWith}
-              </span>
+              <a
+                href="https://clickinnovate.in/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer-creator-inline-link"
+                aria-label="Made with love by Clickinnovate Pvt. Ltd."
+              >
+                <span>
+                  Made with{' '}
+                  <span className="footer-white-heart" aria-hidden="true">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="#ffffff" stroke="#ffffff" strokeWidth="1" className="inline-block align-middle mx-0.5">
+                      <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+                    </svg>
+                  </span>{' '}
+                  by Clickinnovate Pvt. Ltd.
+                </span>
+              </a>
             </div>
           </div>
         </div>

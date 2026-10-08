@@ -3,9 +3,9 @@ import { LanguageProvider } from './context/LanguageContext';
 import { coursesData } from './data/coursesData';
 import { LanguageToggle } from './components/LanguageToggle';
 import { HeroSection } from './components/HeroSection';
+import { FounderVideoSection } from './components/FounderVideoSection';
 import { CourseGrid } from './components/CourseGrid';
 import { WhyNineRupee } from './components/WhyNineRupee';
-import { HowItWorks } from './components/HowItWorks';
 import { FounderSection } from './components/FounderSection';
 import { FAQSection } from './components/FAQSection';
 import { FinalCTA } from './components/FinalCTA';
@@ -43,37 +43,40 @@ function LandingPage() {
 
   return (
     <div className="etender-app-root">
-      {/* Persistent Floating Language Toggle (Exact Reference Position & Treatment) */}
+      {/* Persistent Floating Language Toggle */}
       <LanguageToggle />
 
       <main>
-        {/* 1. Hero Section (Exact Reference Layout, Spacing, and Road Tender Focus) */}
-        <HeroSection onExploreCourses={() => scrollTo('courses')} />
+        {/* 1. ₹9 THEKEDARI — ROAD TENDER INFORMATION (Hero) */}
+        <HeroSection
+          onMeetFounder={() => scrollTo('founder-video')}
+          onExploreCourses={() => scrollTo('founder-video')}
+        />
 
-        {/* 2. Reusable Course Collection (4 Equal Editorial Cards in a Row — ₹9 Courses) */}
+        {/* 2. 02 — THE PERSON (Founder Video / Owner Talk) */}
+        <FounderVideoSection />
+
+        {/* 3. 03 — LEAD INSTRUCTOR & EXPERT (Founder Section) */}
+        <FounderSection onExploreClick={() => scrollTo('courses')} />
+
+        {/* 4. 02 — OUR APPROACH (Why Learn for ₹9?) */}
+        <WhyNineRupee onExploreClick={() => scrollTo('courses')} />
+
+        {/* 5. 01 — LEARN (Course Collection) */}
         <CourseGrid
           courses={coursesData}
           onOpenSyllabus={handleOpenSyllabus}
           onEnroll={handleOpenEnroll}
         />
 
-        {/* 3. Why ₹9 Educational Philosophy */}
-        <WhyNineRupee onExploreClick={() => scrollTo('courses')} />
-
-        {/* 4. Simple 3-Step Enrollment Journey */}
-        <HowItWorks onStartClick={() => scrollTo('courses')} />
-
-        {/* 5. Lead Instructor & Ground Credibility */}
-        <FounderSection onExploreClick={() => scrollTo('courses')} />
-
-        {/* 6. ₹9-Specific Accessible FAQ Accordion */}
+        {/* 6. 05 — COMMON QUESTIONS (FAQ Accordion) */}
         <FAQSection />
 
-        {/* 7. Final Compelling Call to Action */}
-        <FinalCTA onExploreClick={() => scrollTo('courses')} />
+        {/* 7. START TODAY (Final CTA) */}
+        <FinalCTA onExploreClick={() => handleOpenEnroll()} />
       </main>
 
-      {/* 8. Authentic Upside Down Hero Footer matching reference project */}
+      {/* Footer */}
       <Footer />
 
       {/* Course Detailed Syllabus Modal */}

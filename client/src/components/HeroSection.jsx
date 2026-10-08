@@ -2,9 +2,20 @@ import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { translations } from '../data/translations';
 
-export const HeroSection = ({ onExploreCourses }) => {
+export const HeroSection = ({ onExploreCourses, onMeetFounder }) => {
   const { language } = useLanguage();
   const t = translations[language].hero;
+
+  const handleCtaClick = () => {
+    if (onMeetFounder) {
+      onMeetFounder();
+    } else if (onExploreCourses) {
+      onExploreCourses();
+    } else {
+      const el = document.getElementById('founder-video');
+      if (el) el.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <div className="hero-viewport-wrapper">
@@ -42,7 +53,7 @@ export const HeroSection = ({ onExploreCourses }) => {
             <div className="hero-cta-wrap">
               <button
                 type="button"
-                onClick={onExploreCourses}
+                onClick={handleCtaClick}
                 className="hero-tactile-btn"
                 aria-label={t.cta}
               >
