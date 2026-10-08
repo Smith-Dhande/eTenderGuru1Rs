@@ -243,7 +243,7 @@ body {
 }
 
 .hero-editorial-heading {
-  margin-bottom: 22px;
+  margin-bottom: 24px;
   display: flex;
   flex-direction: column;
   line-height: 0.93;
@@ -251,30 +251,32 @@ body {
 
 .hero-headline-serif {
   font-family: var(--font-serif);
-  font-size: clamp(3.2rem, 5.5vw, 5.25rem);
+  font-size: clamp(2.8rem, 4.6vw, 4.4rem);
   font-weight: 400;
   letter-spacing: -0.02em;
   color: #ffffff;
   display: block;
+  line-height: 1;
 }
 
 .hero-headline-impact {
   font-family: var(--font-impact);
-  font-size: clamp(3.6rem, 6vw, 5.75rem);
+  font-size: clamp(3.2rem, 5.2vw, 4.9rem);
   font-weight: 400;
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #ffffff;
   display: block;
+  line-height: 0.95;
   margin-top: 2px;
 }
 
 .hero-headline-highlight {
   display: block;
   font-family: var(--font-impact);
-  font-size: clamp(3.6rem, 6.2vw, 5.8rem);
+  font-size: clamp(3.2rem, 5.2vw, 4.9rem);
   line-height: 0.95;
-  margin-top: 6px;
+  margin-top: 4px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #ffea79; /* Radiant, premium warm gold highlight */
@@ -284,7 +286,7 @@ body {
 .hero-cta-wrap {
   display: flex;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 4px;
 }
 
 .hero-tactile-btn {
@@ -877,7 +879,7 @@ body {
 }
 
 /* ==========================================================================
-   4B. PHILOSOPHY / WHY ₹1 (Signature Orange Marquee Banner - Matching Reference)
+   4B. PHILOSOPHY / WHY ₹9 (Signature Orange Marquee Banner - Matching Reference)
    ========================================================================== */
 .philosophy-banner-wrapper {
   position: relative;

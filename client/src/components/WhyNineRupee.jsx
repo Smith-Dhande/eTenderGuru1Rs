@@ -2,20 +2,20 @@ import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { translations } from '../data/translations';
 
-export const WhyOneRupee = ({ onExploreClick }) => {
+export const WhyNineRupee = ({ onExploreClick }) => {
   const { language } = useLanguage();
-  const t = translations[language].whyOneRupee;
+  const t = translations[language].whyNineRupee;
 
   // Tripled for perfectly smooth, continuous infinite marquee looping
   const marqueeItems = [...t.reasons, ...t.reasons, ...t.reasons];
 
   const pillarPrefix = language === 'mr' ? 'स्तंभ' : 'PILLAR';
-  const badgeText = language === 'mr' ? '₹१ प्रॅक्टिकल स्टँडर्ड' : '₹1 Practical Standard';
-  const ctaText = language === 'mr' ? '₹१ कोर्सेस आताच पहा' : 'EXPLORE ₹1 COURSES';
+  const badgeText = language === 'mr' ? '₹९ प्रॅक्टिकल स्टँडर्ड' : '₹9 Practical Standard';
+  const ctaText = language === 'mr' ? '₹९ कोर्सेस आताच पहा' : 'EXPLORE ₹9 COURSES';
 
   return (
     <section
-      id="why-one-rupee"
+      id="why-nine-rupee"
       className="philosophy-banner-wrapper"
       aria-labelledby="philosophy-main-heading"
     >

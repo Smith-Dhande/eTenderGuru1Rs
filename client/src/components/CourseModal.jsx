@@ -63,7 +63,7 @@ export const CourseModal = ({ course, isOpen, onClose, onEnroll }) => {
                 {course.categoryTag[language] || course.categoryTag.en}
               </span>
               <h3 id="modal-course-title" className="text-lg sm:text-xl font-bold text-[#0f172a] leading-tight">
-                {titleSerif} {titleImpact}
+                {course.title ? (course.title[language] || course.title.en) : `${titleSerif} ${titleImpact}`}
               </h3>
             </div>
           </div>
@@ -88,7 +88,7 @@ export const CourseModal = ({ course, isOpen, onClose, onEnroll }) => {
           <div className="p-5 rounded-2xl bg-[#fff5f0] border border-[#f15a24]/20 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
               <p className="text-xs font-bold text-[#f15a24] uppercase tracking-wider mb-1">
-                Special ₹1 Learning Program
+                {language === 'mr' ? `विशेष ₹${course.price === 9 ? '९' : course.price} लर्निंग प्रोग्राम` : `Special ₹${course.price} Learning Program`}
               </p>
               <p className="text-sm text-[#475569] leading-relaxed">
                 {description}
@@ -96,7 +96,7 @@ export const CourseModal = ({ course, isOpen, onClose, onEnroll }) => {
             </div>
             <div className="shrink-0 flex items-center gap-3 bg-white px-4 py-2 rounded-xl shadow-xs border border-[#e6e2db]">
               <span className="text-xs text-[#64748b] font-medium">Price:</span>
-              <span className="font-editorial-impact text-2xl text-[#f15a24]">₹1</span>
+              <span className="font-editorial-impact text-2xl text-[#f15a24]">₹{course.price}</span>
             </div>
           </div>
 

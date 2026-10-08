@@ -54,9 +54,9 @@ export const CourseCard = ({ course, isFeatured, onOpenSyllabus, onEnroll }) => 
         />
         <div className="card-visual-overlay" aria-hidden="true"></div>
 
-        {/* Integrated ₹1 Tag */}
+        {/* Integrated Price Tag */}
         <div className="absolute top-2.5 right-2.5 bg-[#f15a24] text-white font-editorial-impact text-xs tracking-wider px-2 py-0.5 rounded-md shadow-md z-10">
-          ₹1
+          ₹{course.price}
         </div>
       </div>
 
@@ -64,7 +64,7 @@ export const CourseCard = ({ course, isFeatured, onOpenSyllabus, onEnroll }) => 
       <div className="card-footer-bar">
         <span className="card-explore-action">
           <span className="card-explore-text">
-            {language === 'mr' ? 'फक्त ₹१ मध्ये सुरू करा' : 'Start for ₹1'}
+            {course.cta ? (course.cta[language] || course.cta.en) : (language === 'mr' ? `फक्त ₹${course.price === 9 ? '९' : course.price} मध्ये सुरू करा` : `Start for ₹${course.price}`)}
           </span>
         </span>
 
@@ -76,7 +76,7 @@ export const CourseCard = ({ course, isFeatured, onOpenSyllabus, onEnroll }) => 
             e.stopPropagation();
             onEnroll(course);
           }}
-          aria-label={`Enroll in ${titleSerif} ${titleImpact}`}
+          aria-label={`Enroll in ${course.title ? (course.title[language] || course.title.en) : `${titleSerif} ${titleImpact}`}`}
         >
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
             <line x1="5" y1="12" x2="19" y2="12"></line>

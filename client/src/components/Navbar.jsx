@@ -33,7 +33,7 @@ export const Navbar = () => {
             />
           </a>
           <span className="hidden sm:inline-flex items-center text-[11px] font-semibold tracking-wider text-[#f15a24] bg-[#fff5f0] border border-[#f15a24]/20 px-2.5 py-1 rounded-full uppercase">
-            ₹1 Learning Portal
+            {language === 'mr' ? '₹९ ठेकेदारी पोर्टल' : '₹9 Thekedari Portal'}
           </span>
         </div>
 
@@ -48,10 +48,10 @@ export const Navbar = () => {
           </button>
           <button
             type="button"
-            onClick={() => scrollTo('why-one-rupee')}
+            onClick={() => scrollTo('why-nine-rupee')}
             className="hover:text-[#f15a24] transition-colors cursor-pointer py-1"
           >
-            {t.whyOneRupee}
+            {t.whyNineRupee}
           </button>
           <button
             type="button"
@@ -125,10 +125,10 @@ export const Navbar = () => {
             </button>
             <button
               type="button"
-              onClick={() => scrollTo('why-one-rupee')}
+              onClick={() => scrollTo('why-nine-rupee')}
               className="text-left py-2 border-b border-black/5 hover:text-[#f15a24]"
             >
-              {t.whyOneRupee}
+              {t.whyNineRupee}
             </button>
             <button
               type="button"
@@ -156,7 +156,7 @@ export const Navbar = () => {
               onClick={() => scrollTo('courses')}
               className="mt-2 w-full py-3 bg-[#f15a24] hover:bg-[#e04b16] text-white font-bold rounded-xl text-center shadow-xs"
             >
-              {t.startLearning} (₹1)
+              {t.startLearning} ({language === 'mr' ? '₹९' : '₹9'})
             </button>
           </nav>
         </div>

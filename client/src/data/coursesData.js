@@ -1,34 +1,34 @@
 export const coursesData = [
   {
-    id: "govt-tender-fundamentals",
-    price: 1,
+    id: "thekedari-road-tender-information",
+    price: 9,
     originalPrice: 1999,
     num: "01",
     categoryTag: {
-      en: "FOUNDATION",
-      mr: "पायाभूत माहिती"
+      en: "ROAD TENDER / THEKEDARI",
+      mr: "रस्ते टेंडर / ठेकेदारी"
     },
-    badge: "Foundation",
-    category: "basics",
+    badge: "Primary Course",
+    category: "road-tenders",
     titleSerif: {
-      en: "Tender",
-      mr: "टेंडर"
+      en: "₹9 Thekedari",
+      mr: "₹९ ठेकेदारी"
     },
     titleImpact: {
-      en: "FUNDAMENTALS",
-      mr: "FUNDAMENTALS"
+      en: "ROAD TENDER INFO",
+      mr: "ROAD TENDER INFO"
     },
     title: {
-      en: "Government Tender Fundamentals",
-      mr: "Government Tender Fundamentals"
+      en: "₹9 Thekedari — Road Tender Information",
+      mr: "₹९ ठेकेदारी — Road Tender Information"
     },
     shortDesc: {
-      en: "Understand the complete tender process from scratch with zero confusion.",
-      mr: "टेंडरची संपूर्ण प्रक्रिया अगदी सुरुवातीपासून सोप्या पद्धतीने समजून घ्या."
+      en: "Learn the basics of Road Tender Information and thekedari through a practical, affordable course.",
+      mr: "Road Tender Information आणि रस्ते ठेकेदारीचे मूलभूत नियम प्रॅक्टिकल पद्धतीने फक्त ₹९ मध्ये शिका."
     },
     description: {
-      en: "A comprehensive introductory guide to public procurement in India, decoding the Notice Inviting Tender (NIT), EMD fee exemptions for MSMEs, and avoiding early bidding mistakes.",
-      mr: "सरकारी खरेदी पद्धतीची मूलभूत ओळख, NIT दस्तऐवजाचे सोपे विश्लेषण, MSME साठी EMD सवलतीचे नियम आणि टेंडरमधील सुरुवातीच्या चुका टाळण्याचे मार्गदर्शन."
+      en: "A comprehensive introductory guide to Road Tender Information and government road thekedari in Maharashtra. Decode Notice Inviting Tender (NIT) notices for road works, understand asphalt and concrete road requirements, contractor eligibility criteria, machinery norms, and avoid costly bidding mistakes.",
+      mr: "महाराष्ट्रातील रस्ते बांधकाम टेंडर आणि सरकारी ठेकेदारीची प्राथमिक माहिती देणारा मार्गदर्शक कोर्स. Road NIT वाचन, डांबरी व काँक्रीट रस्ते टेंडरचे नियम, कंत्राटदार पात्रता निकष, यंत्रसामग्री अटी आणि टेंडरमधील चुका टाळण्याचे प्रॅक्टिकल मार्गदर्शन."
     },
     image: "/courses/course_1.jpg",
     modulesCount: {
@@ -47,113 +47,113 @@ export const coursesData = [
       en: "Beginner Friendly",
       mr: "Beginner Friendly (सुलभ)"
     },
-    slug: "govt-tender-fundamentals",
+    slug: "thekedari-road-tender-information",
     cta: {
-      en: "START FOR ₹1",
-      mr: "फक्त ₹१ मध्ये सुरू करा"
+      en: "START FOR ₹9",
+      mr: "फक्त ₹९ मध्ये सुरू करा"
     },
     targetAudience: {
-      en: "First-time bidders, MSME owners, civil/electrical contractors, and suppliers.",
-      mr: "नवीन कंत्राटदार, MSME व्यावसायिक, Suppliers आणि टेंडर व्यवसाय सुरू करू इच्छिणारे."
+      en: "Aspiring road contractors, civil engineers, thekedars, MSME owners, and infrastructure suppliers.",
+      mr: "नवीन व जुने रस्ते कंत्राटदार, Civil Engineers, ठेकेदार, सप्लायर्स आणि टेंडर व्यवसाय सुरू करू इच्छिणारे."
     },
     prerequisites: {
-      en: "Basic smartphone or computer literacy with interest in government contracting.",
-      mr: "स्मार्टफोन किंवा कम्प्युटर वापरता येणे आणि टेंडर शिकण्याची तयारी."
+      en: "Basic smartphone or computer literacy with interest in government road contracting.",
+      mr: "स्मार्टफोन किंवा कम्प्युटर वापरता येणे आणि रस्ते टेंडर शिकण्याची तयारी."
     },
     modules: {
       en: [
         {
           number: "01",
-          title: "Introduction to Public Procurement in India",
+          title: "Introduction to Road Tenders & Thekedari",
           points: [
-            "General Financial Rules (GFR) basics",
-            "Single, Two-packet, and Multi-packet tendering systems",
-            "Understanding the tender timeline and Corrigendum"
+            "Overview of road contracting ecosystem in Maharashtra (PWD, ZP, Municipal, PMGSY)",
+            "Types of road works: Asphalt (BT), Cement Concrete (CC), and Paver Block tenders",
+            "Key stages and critical milestones in the road tender lifecycle"
           ]
         },
         {
           number: "02",
-          title: "Decoding the Notice Inviting Tender (NIT)",
+          title: "Decoding the Road Tender NIT Document",
           points: [
-            "Reading critical eligibility & technical criteria",
-            "Calculating required turnover and financial solvency",
-            "Similar work experience thresholds and criteria"
+            "Reading critical eligibility & technical capability criteria for road contracts",
+            "Understanding estimated project cost, bidding schedule, and Earnest Money Deposit (EMD)",
+            "Turnover, similar road work experience thresholds, and solvency calculations"
           ]
         },
         {
           number: "03",
-          title: "Earnest Money Deposit (EMD) & Tender Fees",
+          title: "Machinery, Plant & Technical Compliance",
           points: [
-            "Exemptions for MSME / Udyam and Startups",
-            "Bank Guarantee (BG) formats and validity rules",
-            "Avoiding common EMD forfeiture traps"
+            "Hot mix plant, sensor paver, roller, and JCB declaration requirements",
+            "Own vs lease agreement norms and affidavit formats for road equipment",
+            "Identifying and avoiding common technical bid rejection traps in road tenders"
           ]
         },
         {
           number: "04",
-          title: "Pre-Bid Meetings & Query Submissions",
+          title: "Road Tender BOQ & Bidding Fundamentals",
           points: [
-            "Drafting formal pre-bid queries like a professional",
-            "Challenging biased or restrictive clauses legally",
-            "Handling addendums and deadline extensions"
+            "Understanding Schedule B items (WBM, WMM, DBM, BC, DLC, PQC paving)",
+            "Percentage rate bidding fundamentals for government road works",
+            "Practical road map to advance in government contracting step-by-step"
           ]
         }
       ],
       mr: [
         {
           number: "०१",
-          title: "सरकारी खरेदी व टेंडर पद्धतीची ओळख",
+          title: "रस्ते टेंडर व ठेकेदारीची ओळख",
           points: [
-            "General Financial Rules (GFR) ची सोपी माहिती",
-            "Single Packet व Two Packet टेंडर पद्धती",
-            "टेंडर वेळापत्रक आणि Corrigendum समजून घेणे"
+            "महाराष्ट्रातील रस्ते कंत्राट पद्धत (PWD, जिल्हा परिषद, ग्रामपंचायत व नगरपालिका)",
+            "रस्त्यांच्या कामांचे प्रकार: डांबरी (BT), सिमेंट काँक्रीट (CC) आणि पेव्हर ब्लॉक",
+            "रस्ते टेंडर प्रक्रियेचे महत्त्वाचे टप्पे व नियमांची प्राथमिक ओळख"
           ]
         },
         {
           number: "०२",
-          title: "NIT (Notice Inviting Tender) वाचन व अभ्यास",
+          title: "Road NIT (टेंडर नोटीस) वाचन व अभ्यास",
           points: [
-            "पात्रता अटींचे सखोल व अचूक विश्लेषण",
-            "आवश्यक Turnover आणि Bank Solvency चे नियम",
-            "कामाचा अनुभव आणि निकष कसे पडताळावे"
+            "रस्ते कामांसाठी पात्रता निकष व कामाच्या अनुभवाचे नियम समजून घेणे",
+            "अंदाजित रक्कम (Estimated Cost), वेळापत्रक आणि EMD इसारा रक्कम",
+            "Turnover आणि Solvency निकष तपासण्याची सोपी पद्धत"
           ]
         },
         {
           number: "०३",
-          title: "EMD (इसारा रक्कम) आणि Tender Fee",
+          title: "यंत्रसामग्री (Machinery) व तांत्रिक कागदपत्रे",
           points: [
-            "MSME / Udyam धारकांसाठी EMD सवलती",
-            "Bank Guarantee (BG) चे नियम व नमुने",
-            "EMD जप्त होण्यापासून बचावाचे उपाय"
+            "हॉट मिक्स प्लांट, रोलर, पेव्हर व इतर मशनरीचे नियम",
+            "स्वतःची मालकी वि. भाडेतत्त्वावरील (Lease) यंत्रसामग्रीचे शपथपत्र",
+            "Technical Bid मधील चुका आणि रिजेक्शन टाळण्याचे उपाय"
           ]
         },
         {
           number: "०४",
-          title: "Pre-Bid Meeting व शंका निरसन",
+          title: "Schedule B (BOQ) आणि बिडिंगची सुरुवात",
           points: [
-            "अधिकाऱ्यांना Pre-Bid प्रश्न कसे विचारावेत",
-            "अवाजवी अटींना कायदेशीर आव्हान कसे द्यावे",
-            "मुदतवाढ व बदल समजून घेणे"
+            "Schedule B मधील आयटम्सची प्राथमिक ओळख (WMM, DBM, BC, CC)",
+            "Percentage Rate Bidding चे मूलभूत नियम",
+            "ठेकेदारीमध्ये पुढे जाण्यासाठी योग्य मार्ग आणि नियोजन"
           ]
         }
       ]
     },
     keyTakeaways: {
       en: [
-        "Ability to independently review any government tender notice within 15 minutes",
-        "Clear understanding of legal clauses, penalty terms, and payment milestones",
-        "Confidence to assess if a tender is profitable before spending time and money"
+        "Clear understanding of government road tender notices and critical eligibility criteria",
+        "Knowledge of essential machinery, plant declarations, and technical road documents",
+        "Confidence to independently assess road tender opportunities before bidding"
       ],
       mr: [
-        "कोणतेही टेंडर १५ मिनिटांत समजून घेण्याची क्षमता",
-        "कायदेशीर अटी, Penalty आणि Payment नियमांची स्पष्ट माहिती",
-        "वेळ व पैसे खर्च करण्याआधी टेंडर फायद्याचे आहे की नाही हे ठरवण्याचा आत्मविश्वास"
+        "सरकारी रस्ते टेंडरच्या अटी व पात्रता निकष समजून घेण्याची क्षमता",
+        "रस्ते कामांसाठी लागणारी यंत्रसामग्री व आवश्यक कागदपत्रांचे अचूक ज्ञान",
+        "कोणत्याही मध्यस्थाशिवाय स्वतः रस्ते टेंडर समजून घेण्याचा आत्मविश्वास"
       ]
     }
   },
   {
     id: "tender-documents-preparation",
-    price: 1,
+    price: 9,
     originalPrice: 2499,
     num: "02",
     categoryTag: {
@@ -201,8 +201,8 @@ export const coursesData = [
     },
     slug: "tender-documents-preparation",
     cta: {
-      en: "START FOR ₹1",
-      mr: "फक्त ₹१ मध्ये सुरू करा"
+      en: "START FOR ₹9",
+      mr: "फक्त ₹९ मध्ये सुरू करा"
     },
     targetAudience: {
       en: "Contractors facing document rejections, estimators, and tender filing executives.",
@@ -287,7 +287,7 @@ export const coursesData = [
   },
   {
     id: "mahatender-gem-masterclass",
-    price: 1,
+    price: 9,
     originalPrice: 2999,
     num: "03",
     categoryTag: {
@@ -335,8 +335,8 @@ export const coursesData = [
     },
     slug: "mahatender-gem-masterclass",
     cta: {
-      en: "START FOR ₹1",
-      mr: "फक्त ₹१ मध्ये सुरू करा"
+      en: "START FOR ₹9",
+      mr: "फक्त ₹९ मध्ये सुरू करा"
     },
     targetAudience: {
       en: "Contractors, suppliers, service providers, and business owners across Maharashtra.",
@@ -421,7 +421,7 @@ export const coursesData = [
   },
   {
     id: "tender-documentation-strategy",
-    price: 1,
+    price: 9,
     originalPrice: 3499,
     num: "04",
     categoryTag: {
@@ -469,8 +469,8 @@ export const coursesData = [
     },
     slug: "tender-documentation-strategy",
     cta: {
-      en: "START FOR ₹1",
-      mr: "फक्त ₹१ मध्ये सुरू करा"
+      en: "START FOR ₹9",
+      mr: "फक्त ₹९ मध्ये सुरू करा"
     },
     targetAudience: {
       en: "Contractors aiming to maximize profit margins and win tenders consistently.",
@@ -556,6 +556,6 @@ export const coursesData = [
 ];
 
 // Helper to get courses filtered by price
-export const getCoursesByPrice = (price = 1) => {
+export const getCoursesByPrice = (price = 9) => {
   return coursesData.filter((course) => course.price === price);
 };

@@ -94,8 +94,8 @@ export const Footer = () => {
                   </button>
                 </li>
                 <li>
-                  <button type="button" onClick={() => scrollToSection('why-one-rupee')}>
-                    {language === 'mr' ? '₹१ मध्ये का?' : 'Why ₹1 Courses?'}
+                  <button type="button" onClick={() => scrollToSection('why-nine-rupee')}>
+                    {language === 'mr' ? '₹९ मध्ये का?' : 'Why ₹9 Courses?'}
                   </button>
                 </li>
                 <li>

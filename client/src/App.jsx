@@ -4,7 +4,7 @@ import { coursesData } from './data/coursesData';
 import { LanguageToggle } from './components/LanguageToggle';
 import { HeroSection } from './components/HeroSection';
 import { CourseGrid } from './components/CourseGrid';
-import { WhyOneRupee } from './components/WhyOneRupee';
+import { WhyNineRupee } from './components/WhyNineRupee';
 import { HowItWorks } from './components/HowItWorks';
 import { FounderSection } from './components/FounderSection';
 import { FAQSection } from './components/FAQSection';
@@ -33,7 +33,7 @@ function LandingPage() {
   };
 
   const handleOpenEnroll = (course) => {
-    const courseToEnroll = course || coursesData.find((c) => c.price === 1) || coursesData[0];
+    const courseToEnroll = course || coursesData.find((c) => c.price === 9) || coursesData[0];
     setSelectedCourseForEnroll(courseToEnroll);
   };
 
@@ -47,18 +47,18 @@ function LandingPage() {
       <LanguageToggle />
 
       <main>
-        {/* 1. Hero Section (Exact Reference Layout, Spacing, and Founder Cutout) */}
+        {/* 1. Hero Section (Exact Reference Layout, Spacing, and Road Tender Focus) */}
         <HeroSection onExploreCourses={() => scrollTo('courses')} />
 
-        {/* 2. Reusable Course Collection (4 Equal Editorial Cards in a Row) */}
+        {/* 2. Reusable Course Collection (4 Equal Editorial Cards in a Row — ₹9 Courses) */}
         <CourseGrid
           courses={coursesData}
           onOpenSyllabus={handleOpenSyllabus}
           onEnroll={handleOpenEnroll}
         />
 
-        {/* 3. Why ₹1 Educational Philosophy */}
-        <WhyOneRupee onExploreClick={() => scrollTo('courses')} />
+        {/* 3. Why ₹9 Educational Philosophy */}
+        <WhyNineRupee onExploreClick={() => scrollTo('courses')} />
 
         {/* 4. Simple 3-Step Enrollment Journey */}
         <HowItWorks onStartClick={() => scrollTo('courses')} />
@@ -66,7 +66,7 @@ function LandingPage() {
         {/* 5. Lead Instructor & Ground Credibility */}
         <FounderSection onExploreClick={() => scrollTo('courses')} />
 
-        {/* 6. ₹1-Specific Accessible FAQ Accordion */}
+        {/* 6. ₹9-Specific Accessible FAQ Accordion */}
         <FAQSection />
 
         {/* 7. Final Compelling Call to Action */}
@@ -84,7 +84,7 @@ function LandingPage() {
         onEnroll={handleOpenEnroll}
       />
 
-      {/* ₹1 Instant Enrollment & Confirmation Modal */}
+      {/* ₹9 Instant Enrollment & Confirmation Modal */}
       <EnrollModal
         course={selectedCourseForEnroll}
         isOpen={Boolean(selectedCourseForEnroll)}
