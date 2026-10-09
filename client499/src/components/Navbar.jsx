@@ -33,7 +33,7 @@ export const Navbar = () => {
             />
           </a>
           <span className="hidden sm:inline-flex items-center text-[11px] font-semibold tracking-wider text-[#f15a24] bg-[#fff5f0] border border-[#f15a24]/20 px-2.5 py-1 rounded-full uppercase">
-            {language === 'mr' ? '₹९ ठेकेदारी पोर्टल' : '₹9 Thekedari Portal'}
+            {language === 'mr' ? '₹४९९ रोजगार पोर्टल' : '₹499 Employment Portal'}
           </span>
         </div>
 
@@ -156,7 +156,7 @@ export const Navbar = () => {
               onClick={() => scrollTo('courses')}
               className="mt-2 w-full py-3 bg-[#f15a24] hover:bg-[#e04b16] text-white font-bold rounded-xl text-center shadow-xs"
             >
-              {t.startLearning} ({language === 'mr' ? '₹९' : '₹9'})
+              {t.startLearning} ({language === 'mr' ? '₹४९९' : '₹499'})
             </button>
           </nav>
         </div>

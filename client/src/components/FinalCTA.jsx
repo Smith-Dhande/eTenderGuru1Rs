@@ -15,18 +15,18 @@ export const FinalCTA = ({ onExploreClick }) => {
           <div className="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 rounded-full bg-white/10 blur-xl pointer-events-none" aria-hidden="true" />
           <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-black/10 blur-xl pointer-events-none" aria-hidden="true" />
 
-          {/* Road Construction Site Image merging from right to center */}
+          {/* Authentic Modern Highway & Infrastructure Milestone Image Backdrop */}
           <div
-            className="absolute inset-y-0 right-0 w-full sm:w-3/4 md:w-2/3 lg:w-[58%] pointer-events-none overflow-hidden select-none cta-construction-image-wrap"
+            className="absolute inset-y-0 right-0 w-full sm:w-4/5 md:w-3/4 lg:w-[65%] pointer-events-none overflow-hidden select-none cta-construction-image-wrap"
           >
             <img
-              src="/road-construction.jpg"
-              alt="Road Construction Site"
-              className="w-full h-full object-cover object-[75%_center] sm:object-right opacity-65 sm:opacity-75 md:opacity-85 lg:opacity-90"
+              src="/final-cta-highway-bg.jpg"
+              alt="Completed Highway Infrastructure"
+              className="w-full h-full object-cover object-[75%_center] sm:object-right opacity-80 sm:opacity-90"
             />
-            {/* Subtle warm tint overlays */}
-            <div className="absolute inset-0 bg-gradient-to-r from-[#ea580c]/80 via-[#ea580c]/30 to-transparent sm:via-transparent sm:opacity-60" />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#c2410c]/70 via-transparent to-[#f15a24]/30" />
+            {/* Smooth directional amber-terracotta gradient blend from left text */}
+            <div className="absolute inset-0 bg-gradient-to-r from-[#A83F0F] via-[#A83F0F]/65 to-transparent sm:via-[#A83F0F]/30" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#6d2606]/80 via-transparent to-[#A83F0F]/20" />
           </div>
 
           <div className="relative z-10 max-w-xl lg:max-w-2xl">

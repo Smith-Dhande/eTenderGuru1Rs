@@ -10,21 +10,21 @@ export const translations = {
     // Navigation
     nav: {
       courses: "Courses",
-      whyNineRupee: "Why ₹9?",
+      whyNineRupee: "Why ₹499?",
       howItWorks: "How It Works",
       founder: "Instructor",
       faq: "FAQ",
       startLearning: "Start Learning"
     },
 
-    // 01 — Hero Section (eTender Guru Editorial Style — ₹9 Road Tender Course)
+    // 01 — Hero Section (eTender Guru Editorial Style — ₹499 Employment & Tender Course)
     hero: {
-      label: "₹9 THEKEDARI — ROAD TENDER INFORMATION",
-      headlineBold: "Understand ",
-      headlineImpact: "ROAD TENDERS",
-      headlineHighlight: "FOR JUST ₹9.",
-      cta: "MEET THE FOUNDER ",
-      altFounder: "eTender Guru Founder - Government Tender Trainer & Expert"
+      label: "₹499 THEKEDARI — EMPLOYMENT & GOVERNMENT TENDERS",
+      headlineBold: "Build Your ",
+      headlineImpact: "EMPLOYMENT & BUSINESS",
+      headlineHighlight: "FOR JUST ₹499.",
+      cta: "MEET THE FOUNDER ↓",
+      altFounder: "eTender Guru Founder - Government Tender & Employment Trainer"
     },
 
     // 02 — Founder Video / Trust Section
@@ -41,15 +41,15 @@ export const translations = {
       support: "Before you learn the process, hear directly from the person behind it.",
       roleTitle: "Founder & Lead Tender Consultant",
       experienceTag: "10+ YEARS GROUND EXPERTISE",
-      quote: "“Government Tender मध्ये सुरुवात करायची आहे? पण कुठून करायची हे माहीत नाही?\n\nRoad Tender समजून घेण्याची सुरुवात करा — फक्त ९ रुपयांमध्ये.\n\nचला, आजपासून सुरुवात करूया!”",
-      quoteTranslation: "“Want to get started in Government Tenders? But don't know where to begin?\n\nStart understanding Road Tenders — for just ₹9.\n\nCome on, let's start today!”",
+      quote: "“Government Tender व स्वतःच्या रोजगाराची नवीन सुरुवात करायची आहे? पण कुठून करायची हे माहीत नाही?\n\nसरकारी कंत्राट व रोजगार टेंडर समजून घेण्याची सुरुवात करा — फक्त ४९९ रुपयांमध्ये.\n\nचला, आजपासून सुरुवात करूया!”",
+      quoteTranslation: "“Want to get started in Government Tenders and Self-Employment? But don't know where to begin?\n\nStart understanding Government & Employment Tenders — for just ₹499.\n\nCome on, let's start today!”",
       quoteAuthor: "Founder, eTender Guru",
       videoBadge: "Official Video Message",
       watchPrompt: "Watch 1-minute video message",
       credentials: [
         {
           title: "Real Ground Experience",
-          desc: "Built from hands-on execution of road tenders, PWD and ZP works across Maharashtra."
+          desc: "Built from hands-on execution of service, manpower, civil, and departmental tenders across Maharashtra."
         },
         {
           title: "Zero Corporate Fluff",
@@ -57,7 +57,7 @@ export const translations = {
         },
         {
           title: "Relatable & Practical",
-          desc: "Understand what genuine contractors face on site, at the tender table, and on portal portals."
+          desc: "Understand what genuine contractors and youth face on site, at the tender table, and on official portals."
         }
       ]
     },
@@ -75,8 +75,8 @@ export const translations = {
     whyEtenderGuru: {
       eyebrow: "03 — WHY eTENDER GURU",
       titleSerif: "Practical Knowledge Built For",
-      titleImpact: "REAL CONTRACTORS",
-      support: "We don't teach academic textbook theory. We explain how government road tenders actually work in the real world.",
+      titleImpact: "SELF-EMPLOYMENT & THEKEDARI",
+      support: "We don't teach academic textbook theory. We guide youth, contractors, and entrepreneurs on how to generate employment and secure government contracts in the real world.",
       points: [
         {
           num: "01",
@@ -85,13 +85,13 @@ export const translations = {
         },
         {
           num: "02",
-          title: "Road Tender Focus",
-          desc: "Learn around real Road Tender concepts — PWD, ZP, BT (Asphalt), CC (Concrete), and Paver block roads with actual departmental specifications."
+          title: "Employment & Service Focus",
+          desc: "Learn around real Employment Tenders — Manpower Supply, Security, Facility Management, Vehicle Hiring, and Government Service contracts with low initial capital."
         },
         {
           num: "03",
           title: "Beginner Friendly",
-          desc: "Designed to help newcomers, suppliers, and aspiring thekedars understand where to start without feeling lost in bureaucratic terminology."
+          desc: "Designed to help newcomers, job seekers, educated youth, and aspiring thekedars understand where to start without feeling lost in bureaucratic terminology."
         },
         {
           num: "04",
@@ -106,50 +106,50 @@ export const translations = {
       eyebrow: "04 — WHAT YOU'LL LEARN",
       titleSerif: "Complete Course Curriculum",
       titleImpact: "WHAT YOU'LL LEARN",
-      support: "Everything covered inside ₹9 Thekedari — Road Tender Information, taken directly from real-world Maharashtra road tender documents.",
+      support: "Everything covered inside ₹499 Thekedari — Employment & Manpower Tenders, taken directly from real-world Maharashtra government service tender documents.",
       modules: [
         {
           num: "01",
-          title: "Introduction to Road Tenders & Thekedari",
-          desc: "Overview of Maharashtra road contracting departments (PWD, ZP, Municipal, PMGSY), difference between Asphalt (BT), CC & Paver roads, and key tender lifecycle stages."
+          title: "Introduction to Employment & Service Tenders",
+          desc: "Overview of government departments issuing service tenders (ZP, Municipal, Health, Education), difference between supply, manpower & infrastructure, and low-capital entry routes."
         },
         {
           num: "02",
-          title: "Understanding the Road Tender NIT",
-          desc: "How to read Notice Inviting Tender (NIT), understand turnover, solvency certificates, similar road work experience criteria, and EMD deposit calculations."
+          title: "Understanding Employment NIT & Eligibility",
+          desc: "How to read Notice Inviting Tender (NIT), understand turnover, solvency certificates, MSME exemptions, and personnel requirement breakdowns."
         },
         {
           num: "03",
-          title: "Machinery, Plant & Technical Compliance",
-          desc: "Hot mix plant, sensor paver, roller, and JCB declaration norms, own vs lease machinery affidavits, and avoiding common technical bid rejection traps."
+          title: "Labour Laws, Minimum Wages & Statutory Compliance",
+          desc: "Maharashtra Minimum Wages Act, EPF, ESIC, Professional Tax, Labour License norms, and avoiding technical bid disqualification."
         },
         {
           num: "04",
-          title: "BOQ, Schedule B & Bidding Fundamentals",
-          desc: "Deciphering Schedule B items (WBM, WMM, DBM, BC, DLC, PQC), understanding percentage-rate bidding, and building a structured roadmap to advance."
+          title: "Service BOQ, Profit Margins & Monthly Billing",
+          desc: "Calculating competitive service charges, preparing attendance muster rolls, wage disbursement sheets, and securing recurring monthly income."
         }
       ],
       topicsList: [
-        "PWD & ZP Rules",
-        "BT / CC / Paver Roads",
-        "Road Tender NIT",
-        "Turnover & Solvency",
-        "Experience Criteria",
-        "Machinery Affidavits",
-        "BOQ & Schedule B",
-        "Percentage Bidding"
+        "Manpower Supply",
+        "Security & Cleaning",
+        "Minimum Wages Act",
+        "EPF & ESIC Rules",
+        "Labour License",
+        "MSME Waivers",
+        "Service BOQ",
+        "Monthly Cash Flow"
       ],
-      ctaText: "SEE THE ₹9 OFFER BELOW ↓"
+      ctaText: "SEE THE ₹499 OFFER BELOW ↓"
     },
 
     // 01 — Course Section (01 — LEARN)
     coursesSection: {
       eyebrow: "01 — LEARN",
-      titleSerif: "Explore Our Programs.",
-      titleImpact: "FOR JUST ₹9",
-      support: "Step-by-step, practical courses to help you understand road tenders, technical filings, and government contracts. Start any course today for just ₹9.",
-      explore: "Start for ₹9",
-      badgePrice: "₹9 Only"
+      titleSerif: "Explore Our Employment Programs.",
+      titleImpact: "FOR JUST ₹499",
+      support: "Step-by-step, practical courses to help you understand government employment tenders, manpower contracts, and self-employment opportunities. Start any course today for just ₹499.",
+      explore: "Start for ₹499",
+      badgePrice: "₹499 Only"
     },
 
     // Course Syllabus Modal
@@ -164,39 +164,39 @@ export const translations = {
       syllabusLabel: "Course Modules & Syllabus",
       keyTakeawaysLabel: "What You Will Learn",
       closeBtn: "Close",
-      enrollNow: "Start for ₹9 Now",
-      guarantee: "Instant digital access upon ₹9 registration."
+      enrollNow: "Start for ₹499 Now",
+      guarantee: "Instant digital access upon ₹499 registration."
     },
 
-    // 02 — Why Learn for JUST ₹9? (02 — OUR APPROACH)
+    // 02 — Why Learn for JUST ₹499? (02 — OUR APPROACH)
     whyNineRupee: {
       eyebrow: "02 — OUR APPROACH",
       titleSerif: "Why Learn for",
-      titleImpact: "JUST ₹9?",
-      support: "A practical, affordable entry point designed to help you understand Road Tender Information and government contracting basics without high upfront costs.",
+      titleImpact: "JUST ₹499?",
+      support: "A practical, affordable entry point designed to help you understand Employment Opportunities, Service Contracts, and government contracting basics without high upfront costs.",
       reasons: [
         {
           num: "01",
           title: "Affordable Entry Point",
-          desc: "Expensive courses charge ₹5,000 to ₹25,000 before you even know if government road contracts suit your business. At ₹9, you explore the fundamentals with zero financial hesitation."
+          desc: "Expensive courses charge ₹5,000 to ₹25,000 before you even know if government contracting suits your business. At ₹499, you explore the fundamentals with zero financial hesitation."
         },
         {
           num: "02",
-          title: "Practical Road Tender Knowledge",
-          desc: "Gain essential clarity on road construction tenders, asphalt/concrete works, NIT document structure, and basic eligibility requirements before bidding."
+          title: "Practical Employment & Service Knowledge",
+          desc: "Gain essential clarity on manpower supply, security tenders, facility management, and contractor registration criteria before submitting your bids."
         },
         {
           num: "03",
           title: "Understand the Complete Tender Process",
-          desc: "Learn how government road tenders are published, scrutinized, and evaluated, demystifying departmental procedures step-by-step."
+          desc: "Learn how government service and employment tenders are published, scrutinized, and evaluated, demystifying departmental procedures step-by-step."
         },
         {
           num: "04",
-          title: "Build Confidence Before Advanced Bids",
-          desc: "Get thoroughly familiar with road contracting workflows, documents, and technical terms before progressing to larger, more complex tender opportunities."
+          title: "Build Confidence for Independent Business",
+          desc: "Get thoroughly familiar with government contracting workflows, compliance documents, and billing structures before progressing to larger opportunities."
         }
       ],
-      quote: "Understanding road tenders does not require expensive training to begin. Real, practical knowledge should be accessible to every genuine contractor.",
+      quote: "Understanding government tenders and creating self-employment should not require expensive training to begin. Real, practical knowledge should be accessible to every ambitious youth.",
       quoteAuthor: "Founder, eTender Guru"
     },
 
@@ -209,8 +209,8 @@ export const translations = {
       roleTitle: "Founder & Lead Tender Consultant",
       experienceTag: "10+ Years Ground Expertise",
       verifiedTag: "Government E-Procurement Practitioner",
-      bio1: "With extensive hands-on experience navigating government procurement portals, tender documentation, bid qualifications, and execution processes, eTender Guru was founded to demystify public contracting.",
-      bio2: "Our mission is to empower MSMEs, civil & electrical contractors, startups, and suppliers across Maharashtra and India to confidently bid on government contracts without relying on expensive middlemen or third-party brokers.",
+      bio1: "With extensive hands-on experience navigating government procurement portals, tender documentation, bid qualifications, and execution processes, eTender Guru was founded to demystify public contracting and create self-employment opportunities.",
+      bio2: "Our mission is to empower youth, MSMEs, service providers, and new contractors across Maharashtra and India to confidently bid on government contracts and establish thriving businesses without relying on expensive middlemen.",
       quote: "Government tendering is not a lottery; it is a structured compliance system. Once you understand the rules, qualification becomes a predictable science.",
       pillars: [
         {
@@ -231,7 +231,7 @@ export const translations = {
         }
       ],
       enquireCta: "CONNECT WITH INSTRUCTOR",
-      coursesCta: "EXPLORE ₹9 COURSES"
+      coursesCta: "EXPLORE ₹499 COURSES"
     },
 
     // 04 — How It Works Section
@@ -243,22 +243,22 @@ export const translations = {
       steps: [
         {
           step: "01",
-          title: "Choose the ₹9 Thekedari",
-          desc: "Select the ₹9 Thekedari — Road Tender Information course to get started with road contracting fundamentals."
+          title: "Choose the ₹499 Course",
+          desc: "Select the ₹499 Thekedari — Employment & Manpower Tenders course to get started with contracting and business fundamentals."
         },
         {
           step: "02",
-          title: "Register for ₹9",
-          desc: "Enter your name, WhatsApp number, and complete your quick ₹9 registration to confirm your seat."
+          title: "Register for ₹499",
+          desc: "Enter your name, WhatsApp number, and complete your quick ₹499 registration to confirm your seat."
         },
         {
           step: "03",
-          title: "Start Learning",
-          desc: "Access the course immediately and start learning practical Road Tender Information and thekedari fundamentals."
+          title: "Start Learning & Build Career",
+          desc: "Access the course immediately and start learning practical Employment, Service Tenders, and Contractor fundamentals."
         }
       ],
       actionPrompt: "Takes less than 1 minute to enroll",
-      actionBtn: "START FOR ₹9"
+      actionBtn: "START FOR ₹499"
     },
 
     // 05 — FAQ Section (05 — COMMON QUESTIONS)
@@ -266,33 +266,33 @@ export const translations = {
       eyebrow: "05 — COMMON QUESTIONS",
       titleSerif: "Frequently Asked",
       titleImpact: "QUESTIONS.",
-      support: "Everything you need to know about the ₹9 Thekedari — Road Tender Information course.",
-      faqHelpPrompt: "Have a specific question about your road tender qualification?",
+      support: "Everything you need to know about the ₹499 Thekedari — Employment & Tender Masterclass.",
+      faqHelpPrompt: "Have a specific question about your employment or tender qualification?",
       faqHelpCta: "Ask Our Experts",
       items: [
         {
-          q: "What is ₹9 Thekedari?",
-          a: "It is a practical, introductory course by eTender Guru that explains Road Tender Information, PWD and ZP tender workflows, NIT document reading, and government contracting basics for just ₹9."
+          q: "What is ₹499 Thekedari — Employment Course?",
+          a: "It is a practical, structured course by eTender Guru that explains Government Employment Tenders, Manpower Supply, Security & Cleaning contracts, PWD/ZP registration, and self-employment business basics for just ₹499."
         },
         {
           q: "Who is this course for?",
-          a: "It is designed for new and aspiring thekedars, civil engineers, building contractors entering road works, suppliers, machinery owners, and anyone wanting to understand government road tenders."
+          a: "It is designed for educated youth, job seekers wanting self-employment, manpower suppliers, security agency owners, diploma/degree engineers, small business founders, and anyone looking to start government contracting with low capital."
         },
         {
           q: "Is previous tender experience required?",
-          a: "No previous tender experience or DSC token is required. The course starts from ground fundamentals to help you understand the system before you bid."
+          a: "No previous tender experience or DSC token is required. The course starts from ground fundamentals to help you understand the entire system step-by-step."
         },
         {
           q: "What will I learn in this course?",
-          a: "You will learn how road tenders are classified (PWD, ZP, BT, CC), how to read a Road NIT document, calculate turnover and solvency requirements, machinery compliance, and understand Schedule B & BOQ percentage bidding."
+          a: "You will learn how employment & service tenders work, how to read an NIT document, calculate Minimum Wages, EPF, ESIC, get MSME exemptions, register as a government contractor, and bid on Mahatender and GeM."
         },
         {
           q: "Is the course available in Marathi?",
-          a: "Yes! The entire training is taught in clear, natural Marathi along with standard English industry terms (like NIT, BOQ, EMD, PWD) used on Maharashtra government portals."
+          a: "Yes! The entire training is taught in clear, natural Marathi along with standard English industry terms (like NIT, BOQ, EMD, GeM, PWD) used on Maharashtra government portals."
         },
         {
           q: "How do I register for the course?",
-          a: "Click 'Start for ₹9', enter your name and WhatsApp number, and complete the ₹9 registration. The process takes less than one minute."
+          a: "Click 'Start for ₹499', enter your name and WhatsApp number, and complete the ₹499 registration. The process takes less than one minute."
         },
         {
           q: "What happens after registration?",
@@ -304,44 +304,44 @@ export const translations = {
     // Final CTA
     finalCta: {
       eyebrow: "START TODAY",
-      titleSerif: "Ready to Understand",
-      titleImpact: "ROAD TENDERS?",
-      subtitle: "Start with ₹9 Thekedari.",
-      ctaBtn: "START FOR ₹9 ",
+      titleSerif: "Ready to Build Your",
+      titleImpact: "EMPLOYMENT & TENDER CAREER?",
+      subtitle: "Start with ₹499 Thekedari — Employment & Tender Masterclass.",
+      ctaBtn: "START FOR ₹499 ",
       instantAccess: "Instant Access • Practical Knowledge • Marathi & English",
-      priceNotice: "Entry price ₹9 valid today."
+      priceNotice: "Entry price ₹499 valid today."
     },
 
     // Enrollment Modal
     enroll: {
-      modalTitle: "Enroll in ₹9 Course",
+      modalTitle: "Enroll in ₹499 Course",
       selectedCourse: "Selected Course",
       priceLabel: "Payable Amount",
-      priceAmount: "₹9 Only",
+      priceAmount: "₹499 Only",
       fullName: "Full Name",
       fullNamePlaceholder: "Enter your full name",
       phone: "WhatsApp Number",
       phonePlaceholder: "10-digit mobile number",
       email: "Email Address (Optional)",
       emailPlaceholder: "name@example.com",
-      payBtn: "Register for ₹9 & Start",
+      payBtn: "Register for ₹499 & Start",
       processing: "Processing...",
       secureNote: "Secure Registration • Official eTender Guru Platform",
       successTitle: "Registration Successful!",
-      successMessage: "Welcome to eTender Guru! Your ₹9 course access details have been sent to your WhatsApp number.",
+      successMessage: "Welcome to eTender Guru! Your ₹499 course access details have been sent to your WhatsApp number.",
       closeSuccess: "Done, Start Learning"
     },
 
     // 10 — Footer (eTender Guru Content)
     footer: {
-      tagline: "Empowering contractors, civil engineers, and entrepreneurs with practical government e-tendering and road contracting education.",
+      tagline: "Empowering youth, contractors, and entrepreneurs with practical government employment, service tenders, and thekedari education.",
       navTitle: "Quick Links",
       navCourses: "Courses & Syllabus",
       navFounder: "About the Instructor",
       legalTitle: "Important Disclaimer",
       disclaimer: "eTender Guru is an independent educational training platform. We provide practical coaching, procedural training, and guidance on public procurement portals. We are not an official government agency or tender issuing authority.",
       copyright: `© ${new Date().getFullYear()} eTender Guru. All Rights Reserved.`,
-      builtWith: "Practical Road Tender Education"
+      builtWith: "Practical Employment & Tender Education"
     }
   },
 
@@ -356,21 +356,21 @@ export const translations = {
     // Navigation
     nav: {
       courses: "कोर्सेस",
-      whyNineRupee: "₹९ मध्ये का?",
+      whyNineRupee: "₹४९९ मध्ये का?",
       howItWorks: "कसे सुरू करावे",
       founder: "मार्गदर्शक",
       faq: "नेहमीचे प्रश्न",
       startLearning: "शिकायला सुरुवात करा"
     },
 
-    // 01 — Hero Section (eTender Guru Editorial Style — ₹9 Road Tender Course)
+    // 01 — Hero Section (eTender Guru Editorial Style — ₹499 Employment Course)
     hero: {
-      label: "₹९ ठेकेदारी — ROAD TENDER INFORMATION",
-      headlineBold: "Road",
-      headlineImpact: "TENDERS",
-      headlineHighlight: "फक्त ₹९ मध्ये.",
+      label: "₹४९९ रोजगार ठेकेदारी — EMPLOYMENT & TENDER INFO",
+      headlineBold: "सरकारी कामे व ",
+      headlineImpact: "रोजगाराची संधी",
+      headlineHighlight: "फक्त ₹४९९ मध्ये.",
       cta: "मार्गदर्शकांचा संदेश पहा ↓",
-      altFounder: "eTender Guru संस्थापक - सरकारी टेंडर तज्ज्ञ"
+      altFounder: "eTender Guru संस्थापक - सरकारी टेंडर व रोजगार तज्ज्ञ"
     },
 
     // 02 — Founder Video / Trust Section
@@ -387,23 +387,23 @@ export const translations = {
       support: "टेंडर शिकण्यापूर्वी प्रत्यक्ष कामाचा अनुभव असणाऱ्या संस्थापकांचे मार्गदर्शन ऐका.",
       roleTitle: "Founder & Lead Tender Consultant",
       experienceTag: "१०+ वर्षांचा प्रत्यक्ष अनुभव",
-      quote: "“Government Tender मध्ये सुरुवात करायची आहे? पण कुठून करायची हे माहीत नाही?\n\nRoad Tender समजून घेण्याची सुरुवात करा — फक्त ९ रुपयांमध्ये.\n\nचला, आजपासून सुरुवात करूया!”",
-      quoteTranslation: "“Government Tender मध्ये सुरुवात करायची आहे? पण कुठून करायची हे माहीत नाही?\n\nRoad Tender समजून घेण्याची सुरुवात करा — फक्त ९ रुपयांमध्ये.\n\nचला, आजपासून सुरुवात करूया!”",
+      quote: "“Government Tender व स्वतःच्या रोजगाराची नवीन सुरुवात करायची आहे? पण कुठून करायची हे माहीत नाही?\n\nसरकारी कंत्राट व रोजगार टेंडर समजून घेण्याची सुरुवात करा — फक्त ४९९ रुपयांमध्ये.\n\nचला, आजपासून सुरुवात करूया!”",
+      quoteTranslation: "“Government Tender व स्वतःच्या रोजगाराची नवीन सुरुवात करायची आहे? पण कुठून करायची हे माहीत नाही?\n\nसरकारी कंत्राट व रोजगार टेंडर समजून घेण्याची सुरुवात करा — फक्त ४९९ रुपयांमध्ये.\n\nचला, आजपासून सुरुवात करूया!”",
       quoteAuthor: "संस्थापक, eTender Guru",
       videoBadge: "अधिकृत व्हिडिओ संदेश",
       watchPrompt: "१ मिनिटांचा व्हिडिओ संदेश पहा",
       credentials: [
         {
           title: "प्रत्यक्ष कामाचा अनुभव",
-          desc: "महाराष्ट्रातील PWD, जिल्हा परिषद आणि रस्ते कामांच्या प्रत्यक्ष अनुभवातून शिकवण."
+          desc: "महाराष्ट्रातील शासकीय सेवा, मॅनपॉवर, सप्लाय आणि टेंडर कामांच्या प्रत्यक्ष अनुभवातून शिकवण."
         },
         {
           title: "कोणतीही क्लिष्ट भाषा नाही",
-          desc: "कायदेशीर किंवा पुस्तकी भाषेऐवजी थेट साध्या मराठीत आणि मुद्यांवर आधारित मार्गदर्शन."
+          desc: "कायदेशीर किंवा पुस्तकी भाषेऐवजी थेट साध्या मराठीत आणि मुद्यांवर आधारित प्रॅक्टिकल मार्गदर्शन."
         },
         {
-          title: "कंत्राटदारांच्या गरजांनुसार",
-          desc: "साइटवर काम करताना आणि पोर्टलवर टेंडर भरताना नवीन ठेकेदारांना येणाऱ्या अडचणींवर आधारित."
+          title: "तरुणांच्या व नवीन कंत्राटदारांच्या गरजांनुसार",
+          desc: "कमी भांडवलात स्वतःचा रोजगार उभा करताना आणि पोर्टलवर टेंडर भरताना येणाऱ्या अडचणींवर मात."
         }
       ]
     },
@@ -420,19 +420,19 @@ export const translations = {
     // 03 — Why eTender Guru
     whyEtenderGuru: {
       eyebrow: "०३ — eTENDER GURU का निवडावे?",
-      titleSerif: "कंत्राटदारांचा विश्वास",
-      titleImpact: "eTENDER GURU",
-      support: "सरकारी नियमांची पुस्तकी भाषा बाजूला ठेवून कंत्राटदारांना प्रॅक्टिकल व सोप्या भाषेत टेंडर शिकवणे.",
+      titleSerif: "तरुण व व्यावसायिकांसाठी",
+      titleImpact: "रोजगार व ठेकेदारी",
+      support: "सरकारी नियमांची पुस्तकी भाषा बाजूला ठेवून स्वतःचा रोजगार, मॅनपॉवर कंत्राट आणि टेंडर व्यवसाय सुरू करण्याचे प्रॅक्टिकल ज्ञान.",
       points: [
         {
           num: "०१",
           title: "प्रॅक्टिकल ज्ञान",
-          desc: "टेंडरचे नियम पुस्तकी भाषेऐवजी थेट आणि सोप्या पद्धतीने समजून घ्या. प्रत्यक्ष पोर्टल व Road NIT चे वाचन आणि तयारी."
+          desc: "टेंडरचे नियम पुस्तकी भाषेऐवजी थेट आणि सोप्या पद्धतीने समजून घ्या. प्रत्यक्ष पोर्टल व NIT चे वाचन आणि तयारी."
         },
         {
           num: "०२",
-          title: "रस्ते टेंडरवर विशेष भर",
-          desc: "PWD, जिल्हा परिषद, डांबरी (BT) व काँक्रीट (CC) रस्ते कामांच्या खऱ्या नियमांचा प्रत्यक्ष अभ्यास."
+          title: "रोजगार व सेवा टेंडरवर भर",
+          desc: "मॅनपॉवर सप्लाय, सिक्युरिटी, शासकीय रुग्णालये, ग्रामपंचायत व नगरपालिका सेवा कंत्राटांचे अचूक नियम."
         },
         {
           num: "०३",
@@ -452,50 +452,50 @@ export const translations = {
       eyebrow: "०४ — तुम्ही काय शिकणार?",
       titleSerif: "कोर्सचा अभ्यासक्रम",
       titleImpact: "तुम्ही काय शिकणार?",
-      support: "₹९ ठेकेदारी — Road Tender Information कोर्समध्ये समाविष्ट असलेल्या सर्व विषयांची सविस्तर माहिती.",
+      support: "₹४९९ रोजगार ठेकेदारी — Manpower & Service Tenders कोर्समध्ये समाविष्ट असलेल्या सर्व विषयांची सविस्तर माहिती.",
       modules: [
         {
           num: "०१",
-          title: "रस्ते टेंडर व ठेकेदारीची ओळख",
-          desc: "महाराष्ट्रातील रस्ते कंत्राट पद्धत (PWD, जिल्हा परिषद, ग्रामपंचायत व नगरपालिका), रस्त्यांच्या कामांचे प्रकार (डांबरी BT, सिमेंट काँक्रीट CC आणि पेव्हर ब्लॉक) व टेंडर टप्पे."
+          title: "रोजगार व सेवा टेंडरची ओळख",
+          desc: "सरकारी सेवा कंत्राट पद्धती (जिल्हा परिषद, नगरपालिका, शासकीय रुग्णालये), मॅनपॉवर सप्लाय व सिक्युरिटी कंत्राटांची सुरुवात."
         },
         {
           num: "०२",
-          title: "Road NIT (टेंडर नोटीस) वाचन व अभ्यास",
-          desc: "रस्ते कामांसाठी पात्रता निकष, अंदाजित रक्कम (Estimated Cost), EMD इसारा रक्कम, Turnover आणि Solvency निकष तपासण्याची सोपी पद्धत."
+          title: "NIT वाचन व पात्रता निकष",
+          desc: "सेवा कामांसाठी पात्रता निकष, MSME/उद्यम सवलती, EMD सूट आणि कर्मचारी संख्येचे नियोजन."
         },
         {
           num: "०३",
-          title: "यंत्रसामग्री, Plant व Technical Compliance",
-          desc: "Hot Mix Plant, Sensor Paver, Roller व JCB बाबतचे महत्त्वाचे नियम, स्वतःची व भाडेतत्त्वावरील मशिनरीचे प्रतिज्ञापत्र व Technical Bid रिजेक्ट न होण्याची तयारी."
+          title: "किमान वेतन कायदा, EPF, ESIC व लायसन्स",
+          desc: "महाराष्ट्र किमान वेतन कायदा, EPF/ESIC चे नियम, Labour License काढणे आणि Technical Bid मधील चुका टाळणे."
         },
         {
           num: "०४",
-          title: "BOQ, Schedule B व दर भरणे",
-          desc: "Schedule B मधील कामांचे प्रकार (WBM, WMM, DBM, BC, DLC, PQC), Percentage Rate Bidding कसे केले जाते आणि रस्ते कंत्राट व्यवसायात पुढे जाण्याची पद्धत."
+          title: "Service BOQ, नफ्याचे गणित व बिलिंग",
+          desc: "Service Charge ठरवणे, मस्टर रोल व हजेरी पत्रक तयार करणे आणि दरमहा खात्रीशीर सरकारी बिले मिळवणे."
         }
       ],
       topicsList: [
-        "PWD व ZP नियम",
-        "BT / CC / पेव्हर रस्ते",
-        "Road NIT वाचन",
-        "Turnover व Solvency",
-        "कामाच्या अनुभवाचे नियम",
-        "मशिनरी प्रतिज्ञापत्र",
-        "BOQ व Schedule B",
-        "Percentage Bidding"
+        "मॅनपॉवर सप्लाय",
+        "सिक्युरिटी कंत्राट",
+        "किमान वेतन कायदा",
+        "EPF व ESIC नियम",
+        "लेबर लायसन्स",
+        "MSME सवलती",
+        "Service BOQ",
+        "दरमहा बिलिंग"
       ],
-      ctaText: "खाली ₹९ ऑफर पहा ↓"
+      ctaText: "खाली ₹४९९ ऑफर पहा ↓"
     },
 
     // 01 — Course Section (01 — शिका)
     coursesSection: {
       eyebrow: "०१ — शिका",
-      titleSerif: "आमचे कोर्सेस पहा.",
-      titleImpact: "फक्त ₹९ मध्ये",
-      support: "रस्ते टेंडर, तांत्रिक कागदपत्रे आणि सरकारी कंत्राट पद्धत फक्त ₹९ मध्ये आजच समजून घ्या.",
-      explore: "फक्त ₹९ मध्ये सुरू करा",
-      badgePrice: "फक्त ₹९"
+      titleSerif: "आमचे रोजगार कोर्सेस पहा.",
+      titleImpact: "फक्त ₹४९९ मध्ये",
+      support: "रोजगार टेंडर, मॅनपॉवर व सेवा कंत्राट आणि स्वयंरोजगार सुरू करण्यासाठीचे परिपूर्ण प्रशिक्षण फक्त ₹४९९ मध्ये आजच सुरू करा.",
+      explore: "फक्त ₹४९९ मध्ये सुरू करा",
+      badgePrice: "फक्त ₹४९९"
     },
 
     // Course Syllabus Modal
@@ -510,39 +510,39 @@ export const translations = {
       syllabusLabel: "मॉड्यूल्स व विषय",
       keyTakeawaysLabel: "या कोर्समधून तुम्ही काय शिकाल?",
       closeBtn: "बंद करा",
-      enrollNow: "फक्त ₹९ भरून प्रवेश घ्या",
+      enrollNow: "फक्त ₹४९९ भरून प्रवेश घ्या",
       guarantee: "नोंदणीनंतर लगेच डिजिटल ऍक्सेस उपलब्ध."
     },
 
-    // 02 — Why ₹9 Section (02 — आमची भूमिका)
+    // 02 — Why ₹499 Section (02 — आमची भूमिका)
     whyNineRupee: {
       eyebrow: "०२ — आमची भूमिका",
-      titleSerif: "फक्त ₹९ मध्ये का",
+      titleSerif: "फक्त ₹४९९ मध्ये का",
       titleImpact: "शिकवत आहोत?",
-      support: "कोणत्याही मोठ्या खर्चाशिवाय Road Tender Information आणि सरकारी ठेकेदारीची प्राथमिक माहिती समजून घेण्यासाठीचा परवडणारा मार्ग.",
+      support: "कोणत्याही मोठ्या खर्चाशिवाय स्वतःचा रोजगार, मॅनपॉवर कंत्राट आणि सरकारी ठेकेदारीची संपूर्ण माहिती समजून घेण्यासाठीचा परवडणारा मार्ग.",
       reasons: [
         {
           num: "०१",
           title: "परवडणारी सहज सुरुवात",
-          desc: "बाजारामध्ये ५,००० ते २०,००० रुपयांचे महागडे कोर्सेस असल्याने अनेक जण सुरुवातच करत नाहीत. फक्त ₹९ मध्ये कोणताही आर्थिक ताण न घेता तुम्हाला रोड टेंडरची माहिती समजून घेता येते."
+          desc: "बाजारामध्ये ५,००० ते २५,००० रुपयांचे महागडे कोर्सेस असल्याने अनेक तरुण सुरुवातच करत नाहीत. फक्त ₹४९९ मध्ये कोणताही आर्थिक ताण न घेता तुम्हाला टेंडर व्यवसाय शिकता येतो."
         },
         {
           num: "०२",
-          title: "रस्ते टेंडरचे प्रॅक्टिकल ज्ञान",
-          desc: "डांबरी व काँक्रीट रस्ते कामे, NIT दस्तऐवज आणि प्राथमिक पात्रता अटींची अचूक माहिती मिळवून रस्ते कामांची पद्धत समजून घ्या."
+          title: "रोजगार व सेवा टेंडरचे प्रॅक्टिकल ज्ञान",
+          desc: "मॅनपॉवर, सिक्युरिटी, साफसफाई आणि विविध शासकीय सेवा कामांची प्रत्यक्ष नियमावली समजून घेऊन स्वतःचा व्यवसाय सुरू करा."
         },
         {
           num: "०३",
           title: "टेंडर प्रक्रिया संपूर्ण समजून घ्या",
-          desc: "सरकारी रस्ते टेंडर कसे निघतात, निकष कसे ठरतात आणि कागदपत्रे कशी तपासली जातात ही संपूर्ण प्रक्रिया पायरी-पायरीने शिका."
+          desc: "सरकारी सेवा टेंडर कसे निघतात, निकष कसे ठरतात आणि कागदपत्रे कशी तपासली जातात ही संपूर्ण प्रक्रिया पायरी-पायरीने शिका."
         },
         {
           num: "०४",
-          title: "मोठ्या कामांकडे जाण्यापूर्वी पूर्वतयारी",
-          desc: "मोठ्या टेंडर्स किंवा कामांकडे जाण्याआधी रस्ते ठेकेदारीतील नियम, अटी आणि कायदेशीर बाबींची प्राथमिक ओळख करून घ्या."
+          title: "मोठ्या व्यवसायाकडे जाण्यापूर्वी पूर्वतयारी",
+          desc: "मोठ्या टेंडर्सकडे जाण्याआधी सेवा ठेकेदारीतील नियम, अटी, लेबर कायदे आणि कायदेशीर बाबींची परिपूर्ण तयारी करून घ्या."
         }
       ],
-      quote: "आमचा उद्देश खोटी स्वप्ने दाखवणे नाही; तर रस्ते ठेकेदारीत येऊ इच्छिणाऱ्या प्रत्येक कंत्राटदाराला नियमांचे व टेंडर प्रक्रियेचे योग्य ज्ञान देणे हा आहे.",
+      quote: "आमचा उद्देश खोटी स्वप्ने दाखवणे नाही; तर स्वतःचा रोजगार सुरू करू इच्छिणाऱ्या प्रत्येक तरुणाला व कंत्राटदाराला नियमांचे व टेंडर प्रक्रियेचे योग्य ज्ञान देणे हा आहे.",
       quoteAuthor: "संस्थापक, eTender Guru"
     },
 
@@ -551,12 +551,12 @@ export const translations = {
       eyebrow: "०३ — मुख्य मार्गदर्शक व तज्ज्ञ",
       titleSerif: "१०+ वर्षांचा",
       titleImpact: "प्रत्यक्ष अनुभव.",
-      support: "सरकारी नियम बाजूला ठेवून कंत्राटदार व नवीन व्यावसायिकांना सोप्या भाषेत टेंडर शिकवणे हेच आमचे उद्दिष्ट आहे.",
+      support: "सरकारी नियम बाजूला ठेवून कंत्राटदार, तरुण व नवीन व्यावसायिकांना सोप्या भाषेत टेंडर शिकवणे हेच आमचे उद्दिष्ट आहे.",
       roleTitle: "Founder & Lead Tender Consultant",
       experienceTag: "१०+ वर्षांचा प्रत्यक्ष अनुभव",
       verifiedTag: "Govt. E-Tender Expert",
-      bio1: "विविध सरकारी Portals, टेंडर Documents, पात्रता अटी आणि स्वतः प्रत्यक्ष टेंडर भरण्याच्या १०+ वर्षांच्या अनुभवातून eTender Guru ची सुरुवात झाली.",
-      bio2: "महाराष्ट्रातील MSME व्यावसायिक, Civil & Electrical Contractors, Suppliers आणि तरुणांना कोणत्याही मध्यस्थाशिवाय स्वतः टेंडर भरता यावे हेच आमचे मुख्य ध्येय आहे.",
+      bio1: "विविध सरकारी Portals, टेंडर Documents, सेवा कंत्राट, पात्रता अटी आणि स्वतः प्रत्यक्ष टेंडर भरण्याच्या १०+ वर्षांच्या अनुभवातून eTender Guru ची सुरुवात झाली.",
+      bio2: "महाराष्ट्रातील सुशिक्षित बेरोजगार तरुण, MSME व्यावसायिक, कंत्राटदार आणि पुरवठादारांना कोणत्याही मध्यस्थाशिवाय स्वतः टेंडर भरून रोजगार मिळवता यावा हेच आमचे मुख्य ध्येय आहे.",
       quote: "टेंडर म्हणजे कोणतीही लॉटरी नाही; ही नियमांवर चालणारी पद्धत आहे. नियम समजले की टेंडर मिळवणे सोपे होते.",
       pillars: [
         {
@@ -577,7 +577,7 @@ export const translations = {
         }
       ],
       enquireCta: "मार्गदर्शकांशी संपर्क साधा",
-      coursesCta: "₹९ कोर्सेस पहा"
+      coursesCta: "₹४९९ कोर्सेस पहा"
     },
 
     // 04 — How It Works Section
@@ -589,22 +589,22 @@ export const translations = {
       steps: [
         {
           step: "०१",
-          title: "₹९ ठेकेदारी कोर्स निवडा",
-          desc: "₹९ ठेकेदारी — Road Tender Information कोर्स निवडा आणि रस्ते टेंडरची प्राथमिक माहिती शिकायला सज्ज व्हा."
+          title: "₹४९९ रोजगार ठेकेदारी कोर्स निवडा",
+          desc: "₹४९९ रोजगार ठेकेदारी — Manpower & Service Tenders कोर्स निवडा आणि सेवा टेंडरची संपूर्ण माहिती शिकायला सज्ज व्हा."
         },
         {
           step: "०२",
-          title: "नोंदणी करा आणि ₹९ भरा",
-          desc: "आपले नाव व व्हॉट्सॲप नंबर भरा आणि ₹९ नोंदणी पूर्ण करा."
+          title: "नोंदणी करा आणि ₹४९९ भरा",
+          desc: "आपले नाव व व्हॉट्सॲप नंबर भरा आणि ₹४९९ नोंदणी पूर्ण करा."
         },
         {
           step: "०३",
-          title: "शिकायला सुरुवात करा",
-          desc: "तात्काळ कोर्स ऍक्सेस मिळवा आणि Road Tender Information व ठेकेदारीचे नियम शिकण्यास सुरुवात करा."
+          title: "शिकायला सुरुवात करा व व्यवसाय सुरू करा",
+          desc: "तात्काळ कोर्स ऍक्सेस मिळवा आणि रोजगार, सेवा टेंडर व ठेकेदारीचे नियम शिकण्यास सुरुवात करा."
         }
       ],
       actionPrompt: "नोंदणीसाठी फक्त १ मिनिट लागतो",
-      actionBtn: "फक्त ₹९ मध्ये सुरू करा"
+      actionBtn: "फक्त ₹४९९ मध्ये सुरू करा"
     },
 
     // 05 — FAQ Section (05 — COMMON QUESTIONS)
@@ -612,17 +612,17 @@ export const translations = {
       eyebrow: "०५ — नेहमी विचारले जाणारे प्रश्न",
       titleSerif: "वारंवार विचारले जाणारे",
       titleImpact: "प्रश्न.",
-      support: "eTender Guru च्या ₹९ कोर्सेसबद्दलची सर्व माहिती येथे वाचा.",
-      faqHelpPrompt: "टेंडरबद्दल तुमच्या मनात काही प्रश्न किंवा शंका आहे का?",
+      support: "eTender Guru च्या ₹४९९ रोजगार कोर्सेसबद्दलची सर्व माहिती येथे वाचा.",
+      faqHelpPrompt: "रोजगार किंवा टेंडरबद्दल तुमच्या मनात काही प्रश्न किंवा शंका आहे का?",
       faqHelpCta: "आमच्याशी संपर्क साधा",
       items: [
         {
-          q: "₹९ ठेकेदारी कोर्स नेमका काय आहे?",
-          a: "हा कोर्स शिकणाऱ्यांना Road Tender Information, सरकारी रस्ते कामे, PWD व जिल्हा परिषद (ZP) रस्ते टेंडर पद्धती आणि ठेकेदारीसाठी लागणाऱ्या प्राथमिक नियमांची सोपी व प्रॅक्टिकल माहिती देतो."
+          q: "₹४९९ रोजगार ठेकेदारी कोर्स नेमका काय आहे?",
+          a: "हा कोर्स शिकणाऱ्यांना सरकारी रोजगार कंत्राट, मॅनपॉवर सप्लाय, सिक्युरिटी, सफाई व विविध सेवा टेंडर पद्धती आणि कमी भांडवलात स्वतःचा ठेकेदारी व्यवसाय सुरू करण्यासाठी लागणाऱ्या नियमांची सोपी व प्रॅक्टिकल माहिती देतो."
         },
         {
           q: "हा कोर्स कोणासाठी आहे?",
-          a: "रस्ते ठेकेदारी आणि सरकारी टेंडर शिकू इच्छिणारे सर्वजण यात सहभागी होऊ शकतात: नवीन ठेकेदार, सिव्हिल इंजिनियर्स, मटेरियल सप्लायर्स, मशिनरी मालक आणि टेंडर शिकणारे तरुण."
+          a: "सुशिक्षित बेरोजगार तरुण, नवीन कंत्राटदार, मॅनपॉवर व सिक्युरिटी एजन्सी सुरू करू इच्छिणारे, इंजिनियर्स, माल पुरवठादार आणि सरकारी टेंडरमधून स्वतःचा रोजगार उभा करू इच्छिणारे सर्वजण यात सहभागी होऊ शकतात."
         },
         {
           q: "मला आधीचा अनुभव किंवा DSC टोकन असणे आवश्यक आहे का?",
@@ -630,15 +630,15 @@ export const translations = {
         },
         {
           q: "या कोर्समधून मी काय शिकणार?",
-          a: "रस्ते टेंडरचे प्रकार (PWD, ZP, BT, CC), Road NIT वाचन, Turnover व Solvency चे निकष, यंत्रसामग्री अटी आणि Schedule B व BOQ मध्ये दर कसे भरले जातात हे तुम्ही शिकाल."
+          a: "सेवा टेंडरचे प्रकार, NIT वाचन, किमान वेतन (Minimum Wages), EPF/ESIC चे नियम, लेबर लायसन्स, सरकारी कंत्राटदार नोंदणी आणि Mahatender व GeM वरून ऑर्डर्स मिळवण्याची संपूर्ण पद्धत तुम्ही शिकाल."
         },
         {
           q: "हा कोर्स मराठी भाषेत उपलब्ध आहे का?",
-          a: "होय! संपूर्ण मार्गदर्शन सोप्या व अस्सल मराठी भाषेत आहे. तसेच आवश्यक तांत्रिक इंग्रजी शब्द (उदा. NIT, BOQ, PWD, EMD) समजतील अशा रीतीने स्पष्ट केले आहेत."
+          a: "होय! संपूर्ण मार्गदर्शन सोप्या व अस्सल मराठी भाषेत आहे. तसेच आवश्यक तांत्रिक इंग्रजी शब्द (उदा. NIT, BOQ, GeM, PWD, EMD) सहज समजतील अशा रीतीने स्पष्ट केले आहेत."
         },
         {
           q: "कोर्ससाठी नोंदणी कशी करावी?",
-          a: "'फक्त ₹९ मध्ये सुरू करा' वर क्लिक करा, आपले नाव व व्हॉट्सॲप नंबर टाका आणि ₹९ नोंदणी पूर्ण करा. ही प्रक्रिया १ मिनिटापेक्षा कमी वेळेत पूर्ण होते."
+          a: "'फक्त ₹४९९ मध्ये सुरू करा' वर क्लिक करा, आपले नाव व व्हॉट्सॲप नंबर टाका आणि ₹४९९ नोंदणी पूर्ण करा. ही प्रक्रिया १ मिनिटापेक्षा कमी वेळेत पूर्ण होते."
         },
         {
           q: "नोंदणीनंतर पुढे काय होते?",
@@ -650,44 +650,44 @@ export const translations = {
     // Final CTA
     finalCta: {
       eyebrow: "आजच शिका",
-      titleSerif: "Road Tenders समजून घेण्यास",
+      titleSerif: "सरकारी कामे व स्वतःचा रोजगार सुरू करण्यास",
       titleImpact: "तयार आहात?",
-      subtitle: "₹९ ठेकेदारी कोर्सने सुरुवात करा.",
-      ctaBtn: "फक्त ₹९ मध्ये सुरू करा →",
+      subtitle: "₹४९९ रोजगार ठेकेदारी कोर्सने आजच सुरुवात करा.",
+      ctaBtn: "फक्त ₹४९९ मध्ये सुरू करा →",
       instantAccess: "तात्काळ ऍक्सेस • प्रॅक्टिकल ज्ञान • मराठी व इंग्रजी",
-      priceNotice: "प्रवेश शुल्क ₹९ आजच्या दिवसासाठी वैध."
+      priceNotice: "प्रवेश शुल्क ₹४९९ आजच्या दिवसासाठी वैध."
     },
 
     // Enrollment Modal
     enroll: {
-      modalTitle: "₹९ कोर्ससाठी नोंदणी करा",
+      modalTitle: "₹४९९ कोर्ससाठी नोंदणी करा",
       selectedCourse: "निवडलेला कोर्स",
       priceLabel: "भरण्याची रक्कम",
-      priceAmount: "फक्त ₹९",
+      priceAmount: "फक्त ₹४९९",
       fullName: "पूर्ण नाव",
       fullNamePlaceholder: "आपले पूर्ण नाव टाका",
       phone: "व्हॉट्सॲप नंबर",
       phonePlaceholder: "१० अंकी मोबाईल नंबर",
       email: "ईमेल पत्ता (ऐच्छिक)",
       emailPlaceholder: "नाव@example.com",
-      payBtn: "₹९ भरा आणि कोर्स सुरू करा",
+      payBtn: "₹४९९ भरा आणि कोर्स सुरू करा",
       processing: "प्रक्रिया सुरू आहे...",
       secureNote: "सुरक्षित नोंदणी • अधिकृत eTender Guru प्लॅटफॉर्म",
       successTitle: "नोंदणी यशस्वी झाली!",
-      successMessage: "अभिनंदन! eTender Guru मध्ये आपले स्वागत आहे. कोर्सचा ऍक्सेस आणि लिंक आपल्या व्हॉट्सॲप नंबरवर पाठवली आहे.",
+      successMessage: "अभिनंदन! eTender Guru मध्ये आपले स्वागत आहे. ₹४९९ कोर्सचा ऍक्सेस आणि लिंक आपल्या व्हॉट्सॲप नंबरवर पाठवली आहे.",
       closeSuccess: "पूर्ण झाले, शिकायला सुरुवात करा"
     },
 
     // 10 — Footer (eTender Guru Content)
     footer: {
-      tagline: "कंत्राटदार, MSME व्यावसायिक व तरुणांना Government E-Tenders आणि रस्ते ठेकेदारीचे परिपूर्ण व Practical शिक्षण देणारे व्यासपीठ.",
+      tagline: "तरुण, कंत्राटदार व व्यावसायिकांना Government E-Tenders, मॅनपॉवर व रोजगार कंत्राटांचे परिपूर्ण व Practical शिक्षण देणारे व्यासपीठ.",
       navTitle: "Quick Links",
       navCourses: "Courses & Syllabus",
       navFounder: "About Trainer",
       legalTitle: "महत्त्वाची Disclaimer सूचना",
       disclaimer: "eTender Guru हे एक स्वतंत्र Training व Educational प्लॅटफॉर्म आहे. आम्ही सरकारी टेंडर प्रक्रियांचे Practical प्रशिक्षण देतो. आम्ही कोणतीही सरकारी संस्था किंवा टेंडर जारी करणारे कार्यालय नाही.",
       copyright: `© ${new Date().getFullYear()} eTender Guru. सर्व हक्क सुरक्षित.`,
-      builtWith: "Practical Road Tender Training"
+      builtWith: "Practical Employment & Tender Training"
     }
   }
 };

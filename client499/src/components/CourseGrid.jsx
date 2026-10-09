@@ -7,8 +7,8 @@ export const CourseGrid = ({ courses, onOpenSyllabus, onEnroll }) => {
   const { language } = useLanguage();
   const t = translations[language].coursesSection;
 
-  // Reusable filtering logic: Only display courses with price === 9
-  const filteredCourses = courses.filter((course) => course.price === 9);
+  // Reusable filtering logic: Display courses with price === 499
+  const filteredCourses = courses.filter((course) => course.price === 499);
 
   return (
     <section className="courses-section" id="courses" aria-labelledby="courses-main-heading">

@@ -64,7 +64,7 @@ export const CourseCard = ({ course, isFeatured, onOpenSyllabus, onEnroll }) => 
       <div className="card-footer-bar">
         <span className="card-explore-action">
           <span className="card-explore-text">
-            {course.cta ? (course.cta[language] || course.cta.en) : (language === 'mr' ? `फक्त ₹${course.price === 9 ? '९' : course.price} मध्ये सुरू करा` : `Start for ₹${course.price}`)}
+            {course.cta ? (course.cta[language] || course.cta.en) : (language === 'mr' ? `फक्त ₹${course.price === 499 ? '४९९' : course.price} मध्ये सुरू करा` : `Start for ₹${course.price}`)}
           </span>
         </span>
 

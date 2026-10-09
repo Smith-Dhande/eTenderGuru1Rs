@@ -7,6 +7,7 @@ import { FounderVideoSection } from './components/FounderVideoSection';
 import { CourseGrid } from './components/CourseGrid';
 import { WhyNineRupee } from './components/WhyNineRupee';
 import { FounderSection } from './components/FounderSection';
+import { WhoIsThisFor } from './components/WhoIsThisFor';
 import { FAQSection } from './components/FAQSection';
 import { FinalCTA } from './components/FinalCTA';
 import { Footer } from './components/Footer';
@@ -53,7 +54,8 @@ function LandingPage() {
         {/* 1. ₹9 THEKEDARI — ROAD TENDER INFORMATION (Hero) */}
         <HeroSection
           onMeetFounder={() => scrollTo('founder-video')}
-          onExploreCourses={() => scrollTo('founder-video')}
+          onExploreCourses={() => scrollTo('courses')}
+          onEnroll={() => handleOpenEnroll()}
         />
 
         {/* 2. 02 — THE PERSON (Founder Video / Owner Talk) */}
@@ -61,6 +63,9 @@ function LandingPage() {
 
         {/* 3. 03 — LEAD INSTRUCTOR & EXPERT (Founder Section) */}
         <FounderSection onExploreClick={() => scrollTo('courses')} />
+
+        {/* 3.5. WEBINAR FOR WHOM? (Target Audience Section) */}
+        <WhoIsThisFor onEnroll={() => handleOpenEnroll()} />
 
         {/* 4. 02 — OUR APPROACH (Why Learn for ₹9?) */}
         <WhyNineRupee onExploreClick={() => scrollTo('courses')} />

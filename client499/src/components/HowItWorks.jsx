@@ -75,7 +75,7 @@ export const HowItWorks = ({ onStartClick }) => {
                   {idx === 0
                     ? (language === 'mr' ? 'कोर्स निवडा' : 'Select Course')
                     : idx === 1
-                    ? (language === 'mr' ? 'नोंदणी करा' : 'Register for ₹9')
+                    ? (language === 'mr' ? 'नोंदणी करा' : 'Register for ₹499')
                     : (language === 'mr' ? 'शिकायला सुरुवात' : 'Start Learning')}
                 </span>
                 <span className="w-2 h-2 rounded-full bg-[#f15a24]"></span>
@@ -91,9 +91,9 @@ export const HowItWorks = ({ onStartClick }) => {
             type="button"
             onClick={onStartClick}
             className="tactile-btn-primary"
-            aria-label={t.actionBtn || (language === 'mr' ? 'फक्त ₹९ मध्ये सुरू करा' : 'START FOR ₹9')}
+            aria-label={t.actionBtn || (language === 'mr' ? 'फक्त ₹४९९ मध्ये सुरू करा' : 'START FOR ₹499')}
           >
-            <span>{t.actionBtn || (language === 'mr' ? 'फक्त ₹९ मध्ये सुरू करा' : 'START FOR ₹9')}</span>
+            <span>{t.actionBtn || (language === 'mr' ? 'फक्त ₹४९९ मध्ये सुरू करा' : 'START FOR ₹499')}</span>
             <span className="btn-arrow-icon" aria-hidden="true">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                 <line x1="5" y1="12" x2="19" y2="12"></line>

@@ -24,10 +24,10 @@ export const WhyNineRupee = ({ onExploreClick }) => {
         <div className="philosophy-ambient-glow top-right" aria-hidden="true" />
         <div className="philosophy-ambient-glow bottom-left" aria-hidden="true" />
 
-        {/* Road Construction Site Image Backdrop */}
+        {/* Authentic PWD Road Tender Blueprint Site Inspection Backdrop */}
         <div className="philosophy-bg-backdrop" aria-hidden="true">
           <img
-            src="/road-construction.jpg"
+            src="/why-nine-road-bg.jpg"
             alt=""
             className="philosophy-bg-img"
             loading="lazy"

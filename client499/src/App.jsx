@@ -36,7 +36,7 @@ function LandingPage() {
   };
 
   const handleOpenEnroll = (course) => {
-    const courseToEnroll = course || coursesData.find((c) => c.price === 9) || coursesData[0];
+    const courseToEnroll = course || coursesData.find((c) => c.price === 499) || coursesData[0];
     setSelectedCourseForEnroll(courseToEnroll);
   };
 
@@ -50,7 +50,7 @@ function LandingPage() {
       <LanguageToggle />
 
       <main>
-        {/* 1. ₹9 THEKEDARI — ROAD TENDER INFORMATION (Hero) */}
+        {/* 1. ₹499 THEKEDARI — EMPLOYMENT & GOVERNMENT TENDERS (Hero) */}
         <HeroSection
           onMeetFounder={() => scrollTo('founder-video')}
           onExploreCourses={() => scrollTo('founder-video')}
@@ -62,7 +62,7 @@ function LandingPage() {
         {/* 3. 03 — LEAD INSTRUCTOR & EXPERT (Founder Section) */}
         <FounderSection onExploreClick={() => scrollTo('courses')} />
 
-        {/* 4. 02 — OUR APPROACH (Why Learn for ₹9?) */}
+        {/* 4. 02 — OUR APPROACH (Why Learn for ₹499?) */}
         <WhyNineRupee onExploreClick={() => scrollTo('courses')} />
 
         {/* 5. 01 — LEARN (Course Collection) */}
@@ -72,7 +72,7 @@ function LandingPage() {
           onEnroll={handleOpenEnroll}
         />
 
-        {/* Minimal Scroll-Animated Road Roller + JCB Construction Doodle Transition */}
+        {/* Minimal Scroll-Animated Transition Doodle */}
         <RoadWorkTransition />
 
         {/* 6. 05 — COMMON QUESTIONS (FAQ Accordion) */}
@@ -93,7 +93,7 @@ function LandingPage() {
         onEnroll={handleOpenEnroll}
       />
 
-      {/* ₹9 Instant Enrollment & Confirmation Modal */}
+      {/* ₹499 Instant Enrollment & Confirmation Modal */}
       <EnrollModal
         course={selectedCourseForEnroll}
         isOpen={Boolean(selectedCourseForEnroll)}

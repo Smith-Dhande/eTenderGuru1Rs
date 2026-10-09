@@ -19,11 +19,14 @@ export const translations = {
 
     // 01 — Hero Section (eTender Guru Editorial Style — ₹9 Road Tender Course)
     hero: {
-      label: "₹9 THEKEDARI — ROAD TENDER INFORMATION",
+      label: "₹9 THEKEDARI — ROAD TENDER PRACTICAL COURSE",
       headlineBold: "Understand ",
       headlineImpact: "ROAD TENDERS",
       headlineHighlight: "FOR JUST ₹9.",
-      cta: "MEET THE FOUNDER ",
+      tagline: "बना शासकीय ठेकेदार",
+      cta: "START LEARNING FOR ₹9",
+      secondaryCta: "Watch Founder Message ↓",
+      trustNote: "✓ 100% Practical Ground Coaching • Zero Corporate Fluff • Instant Mobile Access",
       altFounder: "eTender Guru Founder - Government Tender Trainer & Expert"
     },
 
@@ -69,6 +72,116 @@ export const translations = {
       watchCta: "WATCH INTRODUCTION",
       playLabel: "Play Film",
       pauseLabel: "Pause Film"
+    },
+
+    // 02.5 — Who is this Webinar For? (Target Audience Section)
+    whoIsThisFor: {
+      eyebrow: "03 — TARGET AUDIENCE",
+      titleSerif: "Who Can Attend This",
+      titleImpact: "ROAD TENDER WEBINAR?",
+      support: "Whether you are a newcomer starting fresh or an established firm expanding into government contracts, this ₹9 webinar is designed for you.",
+      badge: "Eligible Participants",
+      ctaText: "RESERVE YOUR SPOT FOR ₹9",
+      categories: [
+        {
+          num: "01",
+          id: "civil-engineers",
+          title: "Educated Unemployed Engineers (Civil / Construction)",
+          desc: "Civil & Construction degree/diploma holders looking to get direct contractor class registration and PWD/ZP quota benefits.",
+          tag: "Engineer Quota"
+        },
+        {
+          num: "02",
+          id: "unemployed-coop",
+          title: "Educated Unemployed Service Cooperative Societies",
+          desc: "Registered service cooperatives eligible for priority government tender allocations and exemptions.",
+          tag: "Govt. Concessions"
+        },
+        {
+          num: "03",
+          id: "ngos",
+          title: "Charitable & Non-Profit Organizations (NGOs)",
+          desc: "Trusts and societies looking to participate in developmental works and government tenders.",
+          tag: "Scheme Works"
+        },
+        {
+          num: "04",
+          id: "pvt-ltd",
+          title: "Private Limited Companies (Pvt. Ltd.)",
+          desc: "Corporate entities scaling into state infrastructure, highway tenders, and municipal projects.",
+          tag: "Infra Bidding"
+        },
+        {
+          num: "05",
+          id: "fpc",
+          title: "Farmer Producer Companies (FPC)",
+          desc: "FPCs expanding into rural road connectivity, warehouses, APMC, and local civil tenders.",
+          tag: "Rural & Agri Infra"
+        },
+        {
+          num: "06",
+          id: "proprietorship",
+          title: "Sole Proprietorship Firms",
+          desc: "Individual entrepreneurs looking to establish a formal government contractor registration under their firm.",
+          tag: "New Firm"
+        },
+        {
+          num: "07",
+          id: "partnership",
+          title: "Partnership Firms",
+          desc: "Business partners pooling capital and machinery to bid jointly on road and civil tenders.",
+          tag: "Joint Bidding"
+        },
+        {
+          num: "08",
+          id: "company-secretary",
+          title: "Company Secretaries & Legal Consultants",
+          desc: "Advisors managing client tender documentation, solvency compliance, and technical bid affidavits.",
+          tag: "Advisory Practice"
+        },
+        {
+          num: "09",
+          id: "women-entrepreneurs",
+          title: "Women Entrepreneurs",
+          desc: "Women-led business owners tapping into dedicated government contracting reservations and schemes.",
+          tag: "Special Schemes"
+        },
+        {
+          num: "10",
+          id: "bachat-gat",
+          title: "Women Self-Help Groups (SHG / Bachat Gat)",
+          desc: "Empowered self-help groups seeking local Panchayat and municipal civil/supply tenders.",
+          tag: "Local Tenders"
+        },
+        {
+          num: "11",
+          id: "service-providers",
+          title: "Material & Service Suppliers",
+          desc: "Aggregate, asphalt, sand suppliers and machinery owners aiming to become prime contractors.",
+          tag: "Supplier to Contractor"
+        },
+        {
+          num: "12",
+          id: "cyber-csc",
+          title: "Cyber Cafe & CSC Operators",
+          desc: "CSC operators seeking to offer e-tendering, DSC setup, and vendor registration services.",
+          tag: "New Revenue Stream"
+        },
+        {
+          num: "13",
+          id: "online-center",
+          title: "Online Maha e-Seva Centers",
+          desc: "Seva Kendra owners providing tender document preparation and portal bidding support.",
+          tag: "Client Services"
+        },
+        {
+          num: "14",
+          id: "tenth-pass",
+          title: "Minimum 10th Pass (Aspiring Beginners)",
+          desc: "Anyone with foundational education and determination to learn practical ground contracting rules.",
+          tag: "Open For All"
+        }
+      ]
     },
 
     // 03 — Why eTender Guru
@@ -367,11 +480,14 @@ export const translations = {
 
     // 01 — Hero Section (eTender Guru Editorial Style — ₹9 Road Tender Course)
     hero: {
-      label: "₹९ ठेकेदारी — ROAD TENDER INFORMATION",
+      label: "₹९ ठेकेदारी — ROAD TENDER PRACTICAL COURSE",
       headlineBold: "Road",
       headlineImpact: "TENDERS",
       headlineHighlight: "फक्त ₹९ मध्ये.",
-      cta: "मार्गदर्शकांचा संदेश पहा ↓",
+      tagline: "बना शासकीय ठेकेदार",
+      cta: "फक्त ₹९ मध्ये सुरू करा",
+      secondaryCta: "संस्थापकांचा संदेश पहा ↓",
+      trustNote: "✓ १००% प्रत्यक्ष कामाचा अनुभव • सोपी मराठी भाषा • त्वरित ॲक्सेस",
       altFounder: "eTender Guru संस्थापक - सरकारी टेंडर तज्ज्ञ"
     },
 
@@ -417,6 +533,116 @@ export const translations = {
       watchCta: "Video पहा",
       playLabel: "Video सुरू करा",
       pauseLabel: "Video थांबवा"
+    },
+
+    // 02.5 — Who is this Webinar For? (Target Audience Section)
+    whoIsThisFor: {
+      eyebrow: "०३ — वेबिनार कोणासाठी?",
+      titleSerif: "हा रोड टेंडर वेबिनार",
+      titleImpact: "कोणासाठी आहे?",
+      support: "सरकारी टेंडर आणि रस्ते ठेकेदारी क्षेत्रात पाऊल टाकणाऱ्या सर्व नवीन व अनुभवी घटकांसाठी हा ₹९ वेबिनार अत्यंत उपयुक्त आहे.",
+      badge: "सर्व पात्र घटक",
+      ctaText: "तुमची जागा आजच आरक्षित करा — फक्त ₹९",
+      categories: [
+        {
+          num: "०१",
+          id: "civil-engineers",
+          title: "सुशिक्षित बेरोजगार अभियंता (बांधकाम)",
+          desc: "Civil / Construction इंजिनिअर्स ज्यांना PWD/ZP मध्ये स्वतःचे क्लास नोंदणी करून थेट काम सुरू करायचे आहे.",
+          tag: "इंजिनिअर कोटा लाभ"
+        },
+        {
+          num: "०२",
+          id: "unemployed-coop",
+          title: "सुशिक्षित बेरोजगार सेवा सहकारी संस्था",
+          desc: "नोंदणीकृत सहकारी सोसायट्या ज्यांना शासकीय कामांचे टेंडर्स व सवलतींचा लाभ घ्यायचा आहे.",
+          tag: "शासकीय सवलती"
+        },
+        {
+          num: "०३",
+          id: "ngos",
+          title: "सेवाभावी संस्था",
+          desc: "सामाजिक व सेवाभावी ट्रस्ट/संस्था ज्यांना शासकीय योजना व निविदा प्रक्रियेत सहभागी व्हायचे आहे.",
+          tag: "योजना व कामे"
+        },
+        {
+          num: "०४",
+          id: "pvt-ltd",
+          title: "प्रा. लि. कंपनी (Pvt. Ltd.)",
+          desc: "कॉर्पोरेट व इन्फ्रास्ट्रक्चर कंपन्या ज्यांना राज्य व राष्ट्रीय महामार्ग किंवा स्थानिक टेंडर्समध्ये भाग घ्यायचा आहे.",
+          tag: "इन्फ्रा बिडिंग"
+        },
+        {
+          num: "०५",
+          id: "fpc",
+          title: "शेतकरी उत्पादक कंपनी (FPC)",
+          desc: "ग्रामीण रस्ते, गोदामे, बाजार समिती व कृषी निविदा प्रक्रियेत उतरू इच्छिणाऱ्या FPC कंपन्या.",
+          tag: "कृषी व ग्रामीण कामे"
+        },
+        {
+          num: "०६",
+          id: "proprietorship",
+          title: "एकल मालकी कंपनी (Proprietorship)",
+          desc: "स्वतःच्या नावावर किंवा दुकानाच्या नावावर नव्याने ठेकेदारी सुरू करू इच्छिणारे उद्योजक.",
+          tag: "नवीन सुरुवात"
+        },
+        {
+          num: "०७",
+          id: "partnership",
+          title: "भागीदारी कंपनी (Partnership)",
+          desc: "दोन किंवा अधिक भागीदार मिळून संयुक्त भांडवलावर शासकीय रस्ते कामांचे कंत्राट घेऊ इच्छिणारे.",
+          tag: "जॉइंट व्हेंचर"
+        },
+        {
+          num: "०८",
+          id: "company-secretary",
+          title: "कंपनी सेक्रेटरी व कर सल्लागार",
+          desc: "क्लायंट्ससाठी टेंडर कागदपत्रे, सॉल्व्हन्सी व कायदेशीर अनुपालन हाताळणारे व्यावसायिक.",
+          tag: "व्यावसायिक सल्ला"
+        },
+        {
+          num: "०९",
+          id: "women-entrepreneurs",
+          title: "महिला उद्योजक",
+          desc: "शासकीय कामांमध्ये महिलांसाठी राखीव असणाऱ्या विशेष योजना व टेंडर्सचा लाभ घेण्यासाठी.",
+          tag: "विशेष सवलती"
+        },
+        {
+          num: "१०",
+          id: "bachat-gat",
+          title: "महिला बचत गट",
+          desc: "स्थानिक स्वराज्य संस्था, ग्रामपंचायत व नगरपरिषद कामांच्या निविदांमध्ये सहभागी होण्यासाठी.",
+          tag: "स्थानिक कामे"
+        },
+        {
+          num: "११",
+          id: "service-providers",
+          title: "सेवा पुरवठादार व सप्लायर्स",
+          desc: "गिट्टी, डांबर, मुरूम, यंत्रसामग्री पुरवणारे जे आता थेट मुख्य कंत्राटदार बनू इच्छितात.",
+          tag: "सप्लायर ते ठेकेदार"
+        },
+        {
+          num: "१२",
+          id: "cyber-csc",
+          title: "सायबर सीएससी (CSC Centers)",
+          desc: "CSC चालक जे आपल्या ग्राहकांसाठी ई-टेंडरिंग व शासकीय नोंदणी सेवा सुरू करू इच्छितात.",
+          tag: "नवीन सर्व्हिस"
+        },
+        {
+          num: "१३",
+          id: "online-center",
+          title: "ऑनलाईन महा-ई-सेवा केंद्र",
+          desc: "आपल्या केंद्रावर कंत्राटदारांना टेंडर डॉक्युमेंटेशन व बिडिंग सपोर्ट देणारे चालक.",
+          tag: "उत्पन्नाचे साधन"
+        },
+        {
+          num: "१४",
+          id: "tenth-pass",
+          title: "किमान १० वी पास (इच्छुक कंत्राटदार)",
+          desc: "कोणतीही पदवी नसली तरी प्रत्यक्ष अनुभव घेऊन सरकारी कंत्राटदार बनण्याची जिद्द असणारे तरुण.",
+          tag: "कुणीही शिकू शकते"
+        }
+      ]
     },
 
     // 03 — Why eTender Guru

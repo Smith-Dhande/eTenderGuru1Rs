@@ -88,7 +88,7 @@ export const CourseModal = ({ course, isOpen, onClose, onEnroll }) => {
           <div className="p-5 rounded-2xl bg-[#fff5f0] border border-[#f15a24]/20 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
               <p className="text-xs font-bold text-[#f15a24] uppercase tracking-wider mb-1">
-                {language === 'mr' ? `विशेष ₹${course.price === 9 ? '९' : course.price} लर्निंग प्रोग्राम` : `Special ₹${course.price} Learning Program`}
+                {language === 'mr' ? `विशेष ₹${course.price === 499 ? '४९९' : course.price} लर्निंग प्रोग्राम` : `Special ₹${course.price} Learning Program`}
               </p>
               <p className="text-sm text-[#475569] leading-relaxed">
                 {description}

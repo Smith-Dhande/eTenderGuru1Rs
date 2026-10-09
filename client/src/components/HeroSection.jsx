@@ -2,15 +2,24 @@ import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { translations } from '../data/translations';
 
-export const HeroSection = ({ onExploreCourses, onMeetFounder }) => {
+export const HeroSection = ({ onExploreCourses, onMeetFounder, onEnroll }) => {
   const { language } = useLanguage();
   const t = translations[language].hero;
 
-  const handleCtaClick = () => {
+  const handlePrimaryCta = () => {
+    if (onEnroll) {
+      onEnroll();
+    } else if (onMeetFounder) {
+      onMeetFounder();
+    } else {
+      const el = document.getElementById('courses');
+      if (el) el.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const handleSecondaryCta = () => {
     if (onMeetFounder) {
       onMeetFounder();
-    } else if (onExploreCourses) {
-      onExploreCourses();
     } else {
       const el = document.getElementById('founder-video');
       if (el) el.scrollIntoView({ behavior: 'smooth' });
@@ -20,10 +29,10 @@ export const HeroSection = ({ onExploreCourses, onMeetFounder }) => {
   return (
     <div className="hero-viewport-wrapper">
       <header className="hero-banner" id="hero">
-        {/* Subtle Architectural Government Tender Background Texture with Orange Overlay */}
+        {/* Authentic Highway & Road Tender Construction Site Backdrop */}
         <div className="hero-bg-backdrop" aria-hidden="true">
           <img
-            src="/hero-bg.png"
+            src="/hero-road-bg.jpg"
             alt=""
             className="hero-bg-img"
             loading="eager"
@@ -38,22 +47,31 @@ export const HeroSection = ({ onExploreCourses, onMeetFounder }) => {
         </div>
 
         <div className="hero-inner-container">
-          {/* Left Column: Eyebrow, Editorial Display Headline, Supporting Copy, Tactile CTA */}
+          {/* Left Column: Eyebrow, Editorial Display Headline, Pitch, Deliverables, CTA */}
+          {/* Left Column: Top Power Hook (बना शासकीय ठेकेदार), Eyebrow, Display Headline, CTA */}
           <div className="hero-content-col">
-            <div className="hero-eyebrow-wrap">
-              <span className="hero-eyebrow">{t.label}</span>
+            {/* 1. TOP POWER HOOK: बना शासकीय ठेकेदार */}
+            <div className="hero-top-hook-wrap">
+              <div className="hero-top-hook-pill">
+                <span className="hero-top-hook-dot" aria-hidden="true"></span>
+                <strong className="hero-top-hook-title">{t.tagline || 'बना शासकीय ठेकेदार'}</strong>
+              </div>
             </div>
 
+
+
+            {/* 3. Editorial Display Headline */}
             <h1 className="hero-editorial-heading">
               <span className="hero-headline-serif">{t.headlineBold}</span>
               <span className="hero-headline-impact">{t.headlineImpact}</span>
               <span className="hero-headline-highlight">{t.headlineHighlight}</span>
             </h1>
 
+            {/* Action Row: Primary Enroll & Secondary Founder Talk */}
             <div className="hero-cta-wrap">
               <button
                 type="button"
-                onClick={handleCtaClick}
+                onClick={handlePrimaryCta}
                 className="hero-tactile-btn"
                 aria-label={t.cta}
               >
@@ -65,10 +83,28 @@ export const HeroSection = ({ onExploreCourses, onMeetFounder }) => {
                   </svg>
                 </span>
               </button>
+
+              {t.secondaryCta && (
+                <button
+                  type="button"
+                  onClick={handleSecondaryCta}
+                  className="hero-secondary-btn"
+                  aria-label={t.secondaryCta}
+                >
+                  <span>{t.secondaryCta}</span>
+                </button>
+              )}
             </div>
+
+            {/* Trust Footnote */}
+            {t.trustNote && (
+              <div className="hero-trust-note">
+                <span>{t.trustNote}</span>
+              </div>
+            )}
           </div>
 
-          {/* Right Column: Founder Cutout */}
+          {/* Right Column: Founder Cutout + Experience Badge */}
           <div className="hero-founder-col">
             <div className="hero-founder-frame">
               <img
@@ -78,6 +114,13 @@ export const HeroSection = ({ onExploreCourses, onMeetFounder }) => {
                 loading="eager"
                 fetchPriority="high"
               />
+              <div className="hero-founder-floating-badge" aria-hidden="true">
+                <div className="founder-badge-avatar-dot"></div>
+                <div className="founder-badge-text">
+                  <strong>10+ Years Experience</strong>
+                  <span>Govt. Road Tender Consultant</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>

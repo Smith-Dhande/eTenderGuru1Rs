@@ -20,11 +20,11 @@ export const Footer = ({ onOpenPolicy }) => {
         <div className="footer-ambient-glow top-right" aria-hidden="true" />
         <div className="footer-ambient-glow bottom-left" aria-hidden="true" />
 
-        {/* Road Construction Site Image Backdrop */}
+        {/* Illuminated Twilight Highway & Flyover Infrastructure Backdrop */}
         <div className="footer-bg-backdrop" aria-hidden="true">
           <img
-            src="/road-construction.jpg"
-            alt=""
+            src="/footer-highway-night.jpg"
+            alt="Illuminated Highway Infrastructure"
             className="footer-bg-img"
             loading="lazy"
           />

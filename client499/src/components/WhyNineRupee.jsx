@@ -10,8 +10,8 @@ export const WhyNineRupee = ({ onExploreClick }) => {
   const marqueeItems = [...t.reasons, ...t.reasons, ...t.reasons];
 
   const pillarPrefix = language === 'mr' ? 'स्तंभ' : 'PILLAR';
-  const badgeText = language === 'mr' ? '₹९ प्रॅक्टिकल स्टँडर्ड' : '₹9 Practical Standard';
-  const ctaText = language === 'mr' ? '₹९ कोर्सेस आताच पहा' : 'EXPLORE ₹9 COURSES';
+  const badgeText = language === 'mr' ? '₹४९९ प्रॅक्टिकल स्टँडर्ड' : '₹499 Practical Standard';
+  const ctaText = language === 'mr' ? '₹४९९ कोर्सेस आताच पहा' : 'EXPLORE ₹499 COURSES';
 
   return (
     <section

@@ -1,43 +1,43 @@
 export const coursesData = [
   {
-    id: "thekedari-road-tender-information",
-    price: 9,
-    originalPrice: 1999,
+    id: "rojgar-thekedari-employment-tenders",
+    price: 499,
+    originalPrice: 4999,
     num: "01",
     categoryTag: {
-      en: "ROAD TENDER / THEKEDARI",
-      mr: "रस्ते टेंडर / ठेकेदारी"
+      en: "EMPLOYMENT & SERVICES",
+      mr: "रोजगार व सेवा कंत्राट"
     },
-    badge: "Primary Course",
-    category: "road-tenders",
+    badge: "Flagship Employment Course",
+    category: "employment",
     titleSerif: {
-      en: "₹9 Thekedari",
-      mr: "₹९ ठेकेदारी"
+      en: "₹499 Rojgar",
+      mr: "₹४९९ रोजगार"
     },
     titleImpact: {
-      en: "ROAD TENDER INFO",
-      mr: "ROAD TENDER INFO"
+      en: "THEKEDARI & SERVICES",
+      mr: "THEKEDARI & SERVICES"
     },
     title: {
-      en: "₹9 Thekedari — Road Tender Information",
-      mr: "₹९ ठेकेदारी — Road Tender Information"
+      en: "₹499 Thekedari — Employment & Manpower Tenders",
+      mr: "₹४९९ रोजगार ठेकेदारी — Manpower & Service Tenders"
     },
     shortDesc: {
-      en: "Learn the basics of Road Tender Information and thekedari through a practical, affordable course.",
-      mr: "Road Tender Information आणि रस्ते ठेकेदारीचे मूलभूत नियम प्रॅक्टिकल पद्धतीने फक्त ₹९ मध्ये शिका."
+      en: "Learn how to secure government employment, manpower supply, security and service tenders with low capital for just ₹499.",
+      mr: "कमी भांडवलात सरकारी रोजगार, मॅनपॉवर सप्लाय, सिक्युरिटी व सेवा कंत्राट मिळवण्याची संपूर्ण कार्यपद्धती फक्त ₹४९९ मध्ये शिका."
     },
     description: {
-      en: "A comprehensive introductory guide to Road Tender Information and government road thekedari in Maharashtra. Decode Notice Inviting Tender (NIT) notices for road works, understand asphalt and concrete road requirements, contractor eligibility criteria, machinery norms, and avoid costly bidding mistakes.",
-      mr: "महाराष्ट्रातील रस्ते बांधकाम टेंडर आणि सरकारी ठेकेदारीची प्राथमिक माहिती देणारा मार्गदर्शक कोर्स. Road NIT वाचन, डांबरी व काँक्रीट रस्ते टेंडरचे नियम, कंत्राटदार पात्रता निकष, यंत्रसामग्री अटी आणि टेंडरमधील चुका टाळण्याचे प्रॅक्टिकल मार्गदर्शन."
+      en: "A comprehensive practical guide to Government Employment, Manpower Supply, Security Guard, Cleaning, and Facility Management Tenders in Maharashtra. Learn Gram Panchayat, ZP, Municipal, and Government Hospital service contracts, labour license rules, minimum wage compliance, and how to build a monthly recurring income business.",
+      mr: "महाराष्ट्रातील सरकारी रोजगार कंत्राट, मॅनपॉवर सप्लाय, सिक्युरिटी, सफाई व विविध सेवा टेंडर मिळवण्याचा परिपूर्ण प्रॅक्टिकल मार्गदर्शक कोर्स. ग्रामपंचायत, जिल्हा परिषद, नगरपालिका, शासकीय रुग्णालये व महामंडळांमधील सेवा टेंडर, लेबर लायसन्स, किमान वेतन (Minimum Wages), EPF/ESIC नियम आणि दरमहा खात्रीशीर उत्पन्न मिळवण्याचे मार्गदर्शन."
     },
     image: "/courses/course_1.jpg",
     modulesCount: {
-      en: "4 Modules",
-      mr: "४ Modules"
+      en: "6 Modules",
+      mr: "६ Modules"
     },
     durationShort: {
-      en: "4+ Hours",
-      mr: "४+ तास"
+      en: "5+ Hours",
+      mr: "५+ तास"
     },
     duration: {
       en: "Self-Paced (Lifetime Access)",
@@ -47,252 +47,252 @@ export const coursesData = [
       en: "Beginner Friendly",
       mr: "Beginner Friendly (सुलभ)"
     },
-    slug: "thekedari-road-tender-information",
+    slug: "rojgar-thekedari-employment-tenders",
     cta: {
-      en: "START FOR ₹9",
-      mr: "फक्त ₹९ मध्ये सुरू करा"
+      en: "START FOR ₹499",
+      mr: "फक्त ₹४९९ मध्ये सुरू करा"
     },
     targetAudience: {
-      en: "Aspiring road contractors, civil engineers, thekedars, MSME owners, and infrastructure suppliers.",
-      mr: "नवीन व जुने रस्ते कंत्राटदार, Civil Engineers, ठेकेदार, सप्लायर्स आणि टेंडर व्यवसाय सुरू करू इच्छिणारे."
+      en: "Educated youth, job seekers, manpower suppliers, security agency owners, small contractors, and aspiring entrepreneurs.",
+      mr: "सुशिक्षित बेरोजगार तरुण, नवीन व्यावसायिक, मॅनपॉवर सप्लायर्स, सिक्युरिटी एजन्सी सुरू करू इच्छिणारे आणि स्वयंरोजगार शोधणारे व्यावसायिक."
     },
     prerequisites: {
-      en: "Basic smartphone or computer literacy with interest in government road contracting.",
-      mr: "स्मार्टफोन किंवा कम्प्युटर वापरता येणे आणि रस्ते टेंडर शिकण्याची तयारी."
+      en: "Basic smartphone or computer literacy with interest in government employment contracts.",
+      mr: "स्मार्टफोन किंवा कम्प्युटर वापरता येणे आणि स्वतःचा रोजगार व व्यवसाय सुरू करण्याची तयारी."
     },
     modules: {
       en: [
         {
           number: "01",
-          title: "Introduction to Road Tenders & Thekedari",
+          title: "Introduction to Employment & Service Tenders",
           points: [
-            "Overview of road contracting ecosystem in Maharashtra (PWD, ZP, Municipal, PMGSY)",
-            "Types of road works: Asphalt (BT), Cement Concrete (CC), and Paver Block tenders",
-            "Key stages and critical milestones in the road tender lifecycle"
+            "Overview of employment and service contracting ecosystem (ZP, Municipal, Health, Education Depts)",
+            "Types of service contracts: Manpower Supply, Security Services, Data Entry Operators, Housekeeping & Cleaning",
+            "Why service tenders require low initial capital compared to civil infrastructure"
           ]
         },
         {
           number: "02",
-          title: "Decoding the Road Tender NIT Document",
+          title: "Decoding Employment NIT & Service Documents",
           points: [
-            "Reading critical eligibility & technical capability criteria for road contracts",
-            "Understanding estimated project cost, bidding schedule, and Earnest Money Deposit (EMD)",
-            "Turnover, similar road work experience thresholds, and solvency calculations"
+            "Reading critical eligibility criteria for manpower and service contracts",
+            "Turnover exemptions, MSME/Udyam benefits, and Earnest Money Deposit (EMD) waivers",
+            "Understanding estimated personnel requirement, wage breakdown, and service charge clauses"
           ]
         },
         {
           number: "03",
-          title: "Machinery, Plant & Technical Compliance",
+          title: "Labour Law, Minimum Wages & Statutory Compliance",
           points: [
-            "Hot mix plant, sensor paver, roller, and JCB declaration requirements",
-            "Own vs lease agreement norms and affidavit formats for road equipment",
-            "Identifying and avoiding common technical bid rejection traps in road tenders"
+            "Maharashtra Minimum Wages Act & Zone classification (Zone I, II, III rates)",
+            "EPF (Provident Fund), ESIC, Professional Tax, and GST calculations on labour bills",
+            "Labour license requirements under Contract Labour (Regulation & Abolition) Act"
           ]
         },
         {
           number: "04",
-          title: "Road Tender BOQ & Bidding Fundamentals",
+          title: "Service BOQ, Profit Margins & Monthly Billing",
           points: [
-            "Understanding Schedule B items (WBM, WMM, DBM, BC, DLC, PQC paving)",
-            "Percentage rate bidding fundamentals for government road works",
-            "Practical road map to advance in government contracting step-by-step"
+            "How to quote service charges competitively without entering negative profit margins",
+            "Preparing monthly attendance muster rolls, wage disbursement sheets, and government bill claims",
+            "Practical blueprint to scale from small local tenders to multi-district contracts"
           ]
         }
       ],
       mr: [
         {
           number: "०१",
-          title: "रस्ते टेंडर व ठेकेदारीची ओळख",
+          title: "रोजगार व सेवा टेंडरची ओळख",
           points: [
-            "महाराष्ट्रातील रस्ते कंत्राट पद्धत (PWD, जिल्हा परिषद, ग्रामपंचायत व नगरपालिका)",
-            "रस्त्यांच्या कामांचे प्रकार: डांबरी (BT), सिमेंट काँक्रीट (CC) आणि पेव्हर ब्लॉक",
-            "रस्ते टेंडर प्रक्रियेचे महत्त्वाचे टप्पे व नियमांची प्राथमिक ओळख"
+            "सरकारी रोजगार व सेवा कंत्राट पद्धती (जिल्हा परिषद, नगरपालिका, शासकीय रुग्णालये व शिक्षण विभाग)",
+            "सेवा कामांचे प्रकार: मॅनपॉवर सप्लाय, सिक्युरिटी गार्ड, डेटा एन्ट्री ऑपरेटर्स व स्वच्छता कंत्राट",
+            "कमी भांडवलात सुरू होणाऱ्या सेवा टेंडरचे फायदे"
           ]
         },
         {
           number: "०२",
-          title: "Road NIT (टेंडर नोटीस) वाचन व अभ्यास",
+          title: "रोजगार टेंडर NIT व नियम समजून घेणे",
           points: [
-            "रस्ते कामांसाठी पात्रता निकष व कामाच्या अनुभवाचे नियम समजून घेणे",
-            "अंदाजित रक्कम (Estimated Cost), वेळापत्रक आणि EMD इसारा रक्कम",
-            "Turnover आणि Solvency निकष तपासण्याची सोपी पद्धत"
+            "मॅनपॉवर व सर्व्हिस टेंडरमधील पात्रता निकष व अटींचे सोपे विश्लेषण",
+            "MSME / उद्यम रजिस्ट्रेशनमुळे मिळणारी EMD व अनुभवाची सूट",
+            "कर्मचारी संख्या, वेतन रचना आणि सर्व्हिस चार्ज (Service Charge) चे नियम"
           ]
         },
         {
           number: "०३",
-          title: "यंत्रसामग्री (Machinery) व तांत्रिक कागदपत्रे",
+          title: "किमान वेतन कायदा, EPF, ESIC व लेबर लायसन्स",
           points: [
-            "हॉट मिक्स प्लांट, रोलर, पेव्हर व इतर मशनरीचे नियम",
-            "स्वतःची मालकी वि. भाडेतत्त्वावरील (Lease) यंत्रसामग्रीचे शपथपत्र",
-            "Technical Bid मधील चुका आणि रिजेक्शन टाळण्याचे उपाय"
+            "महाराष्ट्र किमान वेतन कायदा (Minimum Wages Act) व झोननुसार वेतन दर",
+            "EPF (भविष्य निर्वाह निधी), ESIC, Professional Tax आणि GST चे अचूक गणित",
+            "लेबर लायसन्स (Labour License) काढण्याची सोपी पद्धत"
           ]
         },
         {
           number: "०४",
-          title: "Schedule B (BOQ) आणि बिडिंगची सुरुवात",
+          title: "BOQ, नफ्याचे नियोजन व दरमहा बिलिंग",
           points: [
-            "Schedule B मधील आयटम्सची प्राथमिक ओळख (WMM, DBM, BC, CC)",
-            "Percentage Rate Bidding चे मूलभूत नियम",
-            "ठेकेदारीमध्ये पुढे जाण्यासाठी योग्य मार्ग आणि नियोजन"
+            "तोरा न होता योग्य व स्पर्धात्मक Service Charge कसा ठरवावा",
+            "कर्मचारी हजेरी पत्रक (Muster Roll), बँक पेमेंट व सरकारी बिले काढण्याची पद्धत",
+            "स्थानिक कामांपासून मोठ्या कंत्राटांपर्यंत व्यवसाय वाढवण्याचे नियोजन"
           ]
         }
       ]
     },
     keyTakeaways: {
       en: [
-        "Clear understanding of government road tender notices and critical eligibility criteria",
-        "Knowledge of essential machinery, plant declarations, and technical road documents",
-        "Confidence to independently assess road tender opportunities before bidding"
+        "Clear step-by-step knowledge to bid on government manpower and employment tenders",
+        "Mastery over statutory compliances: Minimum Wages, EPF, ESIC, and Labour License",
+        "Confidence to start an independent service enterprise with steady recurring monthly revenue"
       ],
       mr: [
-        "सरकारी रस्ते टेंडरच्या अटी व पात्रता निकष समजून घेण्याची क्षमता",
-        "रस्ते कामांसाठी लागणारी यंत्रसामग्री व आवश्यक कागदपत्रांचे अचूक ज्ञान",
-        "कोणत्याही मध्यस्थाशिवाय स्वतः रस्ते टेंडर समजून घेण्याचा आत्मविश्वास"
+        "सरकारी मॅनपॉवर, सिक्युरिटी व सेवा टेंडर भरण्याचे परिपूर्ण ज्ञान",
+        "किमान वेतन, EPF, ESIC व लेबर कायद्याचे कायदेशीर मार्गदर्शन",
+        "दरमहा नियमित उत्पन्न देणारा स्वतःचा सेवा व्यवसाय सुरू करण्याचा आत्मविश्वास"
       ]
     }
   },
   {
-    id: "tender-documents-preparation",
-    price: 9,
-    originalPrice: 2499,
+    id: "contractor-registration-self-employment",
+    price: 499,
+    originalPrice: 3999,
     num: "02",
     categoryTag: {
-      en: "DOCUMENTATION",
-      mr: "कागदपत्रे व फाइल्स"
+      en: "SELF-EMPLOYMENT",
+      mr: "स्वयंरोजगार व नोंदणी"
     },
-    badge: "Documentation",
-    category: "documentation",
+    badge: "Registration Special",
+    category: "registration",
     titleSerif: {
-      en: "Tender",
-      mr: "टेंडर"
+      en: "Contractor",
+      mr: "कंत्राटदार"
     },
     titleImpact: {
-      en: "DOCUMENTS",
-      mr: "DOCUMENTS"
+      en: "REGISTRATION",
+      mr: "REGISTRATION"
     },
     title: {
-      en: "Tender Documents & Technical Filing",
-      mr: "Tender Documents & Technical Filing"
+      en: "Self-Employment & Contractor Registration Masterclass",
+      mr: "स्वयंरोजगार व सरकारी कंत्राटदार नोंदणी Masterclass"
     },
     shortDesc: {
-      en: "Learn how to read, prepare and submit all key tender documents without errors.",
-      mr: "टेंडरसाठी लागणारे सर्व महत्त्वाचे Documents तयार करणे व अचूक भरणे शिका."
+      en: "Step-by-step masterclass on official contractor registration, licenses, MSME, and self-employment documents.",
+      mr: "सरकारी कंत्राटदार नोंदणी, लायसन्स, MSME आणि स्वयंरोजगारासाठी आवश्यक कागदपत्रांचे परिपूर्ण मार्गदर्शन."
     },
     description: {
-      en: "Master the exact technical document architecture, affidavit stamping norms, BOQ calculations, and how to prevent technical bid rejections.",
-      mr: "Technical Documents ची अचूक मांडणी, Affidavit स्टॅम्पिंगचे नियम, Financial Bid व BOQ तयारी आणि रिजेक्शन टाळण्याची संपूर्ण कार्यपद्धती."
+      en: "Learn the complete step-by-step registration procedure for PWD, Zilla Parishad, Municipal Corporations, Water Supply, and Unemployed Engineer licenses in Maharashtra. Avoid agent commissions and get certified independently.",
+      mr: "सार्वजनिक बांधकाम विभाग (PWD), जिल्हा परिषद, महानगरपालिका, जीवन प्राधिकरण आणि सुशिक्षित बेरोजगार अभियंता (Unemployed Engineer) कंत्राटदार नोंदणीची अधिकृत व कायदेशीर पद्धत. दलालांना पैसे न देता स्वतः सर्व कागदपत्रे व लायसन्स तयार करा."
     },
     image: "/courses/course_2.jpg",
     modulesCount: {
-      en: "14 Modules",
-      mr: "१४ Modules"
+      en: "12 Modules",
+      mr: "१२ Modules"
     },
     durationShort: {
-      en: "8+ Hours",
-      mr: "८+ तास"
+      en: "6+ Hours",
+      mr: "६+ तास"
     },
     duration: {
       en: "Self-Paced (Step-by-Step)",
       mr: "स्वतःच्या वेळेनुसार (सविस्तर)"
     },
     level: {
-      en: "Practical Filing",
-      mr: "Practical Filing (प्रत्यक्ष रचना)"
+      en: "Practical Registration",
+      mr: "Practical Registration (नोंदणी)"
     },
-    slug: "tender-documents-preparation",
+    slug: "contractor-registration-self-employment",
     cta: {
-      en: "START FOR ₹9",
-      mr: "फक्त ₹९ मध्ये सुरू करा"
+      en: "START FOR ₹499",
+      mr: "फक्त ₹४९९ मध्ये सुरू करा"
     },
     targetAudience: {
-      en: "Contractors facing document rejections, estimators, and tender filing executives.",
-      mr: "Documents मुळे टेंडर बाद होणारे कंत्राटदार, टेंडर भरणारे कर्मचारी व व्यावसायिक."
+      en: "Aspiring government contractors, diploma/degree engineers, youth seeking self-employment, and MSME business founders.",
+      mr: "सरकारी कंत्राटदार बनू इच्छिणारे तरुण, Diploma/Degree Engineers, MSME व्यावसायिक आणि नवीन नोंदणी करू इच्छिणारे उद्योजक."
     },
     prerequisites: {
-      en: "Basic understanding of company documentation (GST, PAN, Udhyam).",
-      mr: "व्यवसायाची प्राथमिक कागदपत्रे (GST, PAN, उद्यम)."
+      en: "Basic identity documents (Aadhaar, PAN, Bank Account).",
+      mr: "प्राथमिक कागदपत्रे (आधार कार्ड, पॅन कार्ड, बँक खाते)."
     },
     modules: {
       en: [
         {
           number: "01",
-          title: "Technical Bid Document Architecture",
+          title: "Contractor Registration Framework in Maharashtra",
           points: [
-            "Creating index sheets and cross-referencing",
-            "Affidavit stamping & Maharashtra Stamp Act norms",
-            "Joint Venture (JV) and Consortium legal formatting"
+            "PWD & ZP Contractor classification (Class IX up to Class I-A)",
+            "Special benefits for Unemployed Engineers (Direct Class V/IV registration & security waiver)",
+            "Step-by-step online portal registration and document submission"
           ]
         },
         {
           number: "02",
-          title: "Financial Bid & BOQ Preparation",
+          title: "Core Business Setup & Financial Prerequisites",
           points: [
-            "Percentage vs Item rate BOQ calculation",
-            "Avoiding fatal arithmetic calculation errors in Excel",
-            "Uploading Packet A, B, and C cleanly without corrupt files"
+            "MSME / Udyam Registration & Shop Act (Gumasta) license",
+            "GST Registration, Current Account setup, and Bank Solvency Certificate",
+            "Affidavits, declarations, and work tools declaration formats"
           ]
         },
         {
           number: "03",
-          title: "Common Rejection Scrutiny",
+          title: "Approval Follow-up & Renewal Management",
           points: [
-            "Live disqualified bid reviews and case studies",
-            "Handling minor vs major deviations according to rules",
-            "Writing formal representations against unfair disqualification"
+            "Overcoming scrutiny objections and departmental queries",
+            "Certificate issuance, Passbook verification, and renewal timelines",
+            "How to use your contractor registration to bid on direct quotations & e-tenders"
           ]
         }
       ],
       mr: [
         {
           number: "०१",
-          title: "Technical Documents ची अचूक रचना",
+          title: "महाराष्ट्रातील कंत्राटदार नोंदणी पद्धत",
           points: [
-            "Index Sheet आणि Page Numbering ची योग्य पद्धत",
-            "Stamp Paper व Affidavit चे नियम",
-            "Joint Venture (JV) चे नियम व Formats"
+            "PWD व जिल्हा परिषद नोंदणीचे वर्ग (Class IX ते Class I-A)",
+            "सुशिक्षित बेरोजगार अभियंता (Unemployed Engineer) नोंदणीचे विशेष फायदे व सवलती",
+            "Online पोर्टलवर अर्ज करणे व कागदपत्रे Upload करण्याची अचूक पद्धत"
           ]
         },
         {
           number: "०२",
-          title: "Financial Bid व BOQ तयार करणे",
+          title: "व्यवसाय नोंदणी व आवश्यक कागदपत्रे",
           points: [
-            "Percentage व Item Rate BOQ Calculation",
-            "Excel मधील चुका टाळणे",
-            "Packet A, B व C अचूक Upload करणे"
+            "MSME / उद्यम रजिस्ट्रेशन व शॉप ॲक्ट (गुमास्ता) लायसन्स",
+            "GST नंबर, चालू बँक खाते (Current Account) आणि Bank Solvency सर्टिफिकेट",
+            "आवश्यक स्टॅम्प पेपर, शपथपत्रे (Affidavits) आणि टूल्स-मशिनरी यादी"
           ]
         },
         {
           number: "०३",
-          title: "Rejection विश्लेषण व उपाय",
+          title: "लायसन्स मंजुरी व प्रत्यक्ष कामाची सुरुवात",
           points: [
-            "प्रत्यक्ष Disqualify झालेल्या टेंडरचा अभ्यास",
-            "तांत्रिक चुका दुरुस्त करण्याची योग्य पद्धत",
-            "चुकीच्या रिजेक्शनविरोधात Appeal करणे"
+            "छाननीमधील त्रुटी (Queries) दूर करणे व मंजुरी मिळवणे",
+            "नोंदणी प्रमाणपत्र (Contractor Certificate) व पासबुक प्रक्रिया",
+            "लायसन्सच्या आधारे थेट कोटेशन व ई-टेंडर भरण्याची सुरुवात"
           ]
         }
       ]
     },
     keyTakeaways: {
       en: [
-        "100% technical qualification compliance on tender portals",
-        "Zero errors in stamp papers, declarations, and affidavits",
-        "Ready-to-use professional document templates for daily tendering"
+        "Complete roadmap to obtain an official government contractor license",
+        "Zero broker dependency for PWD, ZP, and Municipal registrations",
+        "Ready document checklists, solvency templates, and affidavit drafts"
       ],
       mr: [
-        "Technical Bid मध्ये १००% पात्रतेची खात्री",
-        "Stamp Paper व Affidavits मधील चुका टाळणे",
-        "तयार Professional Document Formats"
+        "अधिकृत सरकारी कंत्राटदार लायसन्स मिळवण्याची संपूर्ण माहिती",
+        "दलाल किंवा मध्यस्थांशिवाय स्वतः नोंदणी करण्याची क्षमता",
+        "तयार Document Checklists, Solvency Formats व शपथपत्रांचे नमुने"
       ]
     }
   },
   {
-    id: "mahatender-gem-masterclass",
-    price: 9,
-    originalPrice: 2999,
+    id: "mahatender-gem-service-masterclass",
+    price: 499,
+    originalPrice: 4499,
     num: "03",
     categoryTag: {
-      en: "PORTALS",
-      mr: "पोर्टल्स व बिडिंग"
+      en: "PORTALS & ORDERS",
+      mr: "पोर्टल्स व थेट ऑर्डर्स"
     },
     badge: "Most Popular",
     category: "portal",
@@ -305,21 +305,21 @@ export const coursesData = [
       mr: "MASTERCLASS"
     },
     title: {
-      en: "Mahatender & GeM Portal Masterclass",
-      mr: "Mahatender & GeM Portal Masterclass"
+      en: "Mahatender & GeM Portal Service & Supply Masterclass",
+      mr: "Mahatender व GeM पोर्टल - सप्लाय व सर्व्हिस बिडिंग"
     },
     shortDesc: {
-      en: "Find the right tenders and bid independently on Mahatender and GeM.",
-      mr: "योग्य टेंडर शोधणे आणि Portals वर स्वतः टेंडर भरणे शिका."
+      en: "Find employment tenders, service contracts, and supply orders on Mahatender and GeM 4.0.",
+      mr: "Mahatender आणि GeM पोर्टलवर रोजगार, मॅनपॉवर, सप्लाय व थेट सरकारी ऑर्डर्स मिळवणे शिका."
     },
     description: {
-      en: "Hands-on walkthrough of Digital Signature Certificate (DSC) setup, Mahatender live bidding, and GeM 4.0 seller registration, L1 bids, and custom tenders.",
-      mr: "DSC सेटिंग, Mahatender वर प्रत्यक्ष लाईव्ह बिडिंग, आणि GeM 4.0 पोर्टलवर सेलर रजिस्ट्रेशन, L1 बिडिंग व डायरेक्ट ऑर्डर्स मिळवण्याचे परिपूर्ण प्रशिक्षण."
+      en: "Hands-on walkthrough of Digital Signature Certificate (DSC) setup, Mahatender service & supply bid submission, and GeM 4.0 seller registration, catalogue listing, Direct Purchase orders, and L1 bids without middleman intervention.",
+      mr: "DSC सेटिंग, Mahatender वर रोजगार व सप्लाय टेंडर भरणे, आणि GeM 4.0 पोर्टलवर सेलर रजिस्ट्रेशन, प्रॉडक्ट व सर्व्हिस लिस्टिंग, डायरेक्ट पर्चेस ऑर्डर्स व L1 बिडिंगचे संपूर्ण प्रॅक्टिकल प्रशिक्षण."
     },
     image: "/courses/course_3.jpg",
     modulesCount: {
-      en: "12 Modules",
-      mr: "१२ Modules"
+      en: "10 Modules",
+      mr: "१० Modules"
     },
     durationShort: {
       en: "7+ Hours",
@@ -333,100 +333,100 @@ export const coursesData = [
       en: "Hands-on Portals",
       mr: "Live Portals (थेट पोर्टल)"
     },
-    slug: "mahatender-gem-masterclass",
+    slug: "mahatender-gem-service-masterclass",
     cta: {
-      en: "START FOR ₹9",
-      mr: "फक्त ₹९ मध्ये सुरू करा"
+      en: "START FOR ₹499",
+      mr: "फक्त ₹४९९ मध्ये सुरू करा"
     },
     targetAudience: {
-      en: "Contractors, suppliers, service providers, and business owners across Maharashtra.",
-      mr: "महाराष्ट्रातील कंत्राटदार, माल पुरवठादार (Suppliers) आणि GeM वर काम करू इच्छिणारे व्यावसायिक."
+      en: "Suppliers, manpower agencies, vehicle transporters, catering & service providers across Maharashtra.",
+      mr: "महाराष्ट्रातील माल पुरवठादार, मॅनपॉवर एजन्सीज, वाहन भाडेतत्त्व व्यावसायिक, केटरिंग व सेवा पुरवठादार."
     },
     prerequisites: {
-      en: "Computer / Laptop with internet access.",
-      mr: "कम्प्युटर किंवा लॅपटॉप आणि इंटरनेट."
+      en: "Computer / Laptop or Smartphone with internet access.",
+      mr: "कम्प्युटर किंवा लॅपटॉप/स्मार्टफोन आणि इंटरनेट."
     },
     modules: {
       en: [
         {
           number: "01",
-          title: "DSC Configuration & Portal Login",
+          title: "DSC Configuration & Portal Enrollment",
           points: [
-            "Java runtime environment setup & security exceptions",
-            "DSC PKI client driver installation",
-            "Browser compatibility (Edge / Chrome setup)"
+            "Class 3 DSC Token mapping, Java runtime & browser setup",
+            "Vendor enrollment on mahatenders.gov.in for services & supplies",
+            "Troubleshooting common login and digital certificate errors"
           ]
         },
         {
           number: "02",
-          title: "Mahatender Search & Bidding Walkthrough",
+          title: "Finding High-Probability Employment & Supply Bids",
           points: [
-            "Advanced keyword & organization tender search",
-            "Vendor enrollment & DSC mapping",
-            "Final submission and acknowledgement receipt download"
+            "Advanced search filters for Manpower, Security, Transport, and Material supply",
+            "Reading Packet A (Fee), Packet B (Technical), and Packet C (Financial)",
+            "Online EMD payment, exemption claims, and final bid receipt download"
           ]
         },
         {
           number: "03",
-          title: "Government e-Marketplace (GeM 4.0)",
+          title: "Government e-Marketplace (GeM 4.0) Orders",
           points: [
-            "Seller registration & catalog OEM authorization",
-            "Direct Purchase, L1 Bidding, and Custom Bids on GeM",
-            "Invoice generation and CRAC acceptance"
+            "GeM Primary & Secondary seller registration and brand listing",
+            "Direct Purchase (up to ₹25,000 / ₹5,00,000) and L1 Service Bids",
+            "Online invoice generation, CRAC acceptance, and payment tracking"
           ]
         }
       ],
       mr: [
         {
           number: "०१",
-          title: "DSC Setting व Portal Login",
+          title: "DSC Setting व Vendor नोंदणी",
           points: [
-            "Java Setting व Browser Security",
-            "DSC Driver Installation व Token Mapping",
-            "लॉगिन करताना येणाऱ्या तांत्रिक अडचणींवर मात"
+            "Class 3 DSC टोकन सेटिंग, Java व Browser ची अचूक मांडणी",
+            "Mahatender पोर्टलवर सेवा व सप्लायसाठी Vendor प्रोफाइल तयार करणे",
+            "डिजिटल सिग्नेचरच्या तांत्रिक अडचणींवर मात"
           ]
         },
         {
           number: "०२",
-          title: "Mahatender Search व Live Bidding",
+          title: "रोजगार व सप्लाय टेंडर शोधणे व भरणे",
           points: [
-            "टेंडर शोधणे व My Tenders मध्ये जोडणे",
-            "Packet A, B व C Upload करून Final Receipt मिळवणे",
-            "Online Payment व EMD प्रक्रिया"
+            "मॅनपॉवर, वाहन भाडे, केटरिंग व सप्लाय टेंडर शोधण्याची सोपी पद्धत",
+            "Packet A, B व C चे अचूक दस्तऐवज Upload करणे",
+            "EMD ऑनलाईन भरणे किंवा MSME सवलत घेऊन Final Receipt मिळवणे"
           ]
         },
         {
           number: "०३",
-          title: "GeM Portal संपूर्ण प्रक्रिया",
+          title: "GeM 4.0 पोर्टलवरून थेट ऑर्डर्स मिळवणे",
           points: [
-            "Seller Registration व Product Listing",
-            "Direct Purchase, L1 Bidding व Custom Bids",
-            "बिल जनरेट करणे व वेळेवर पेमेंट मिळवणे"
+            "GeM सेलर नोंदणी आणि आपल्या सेवांचे Listing करणे",
+            "Direct Purchase ऑर्डर्स, L1 Bidding व Custom Service Bids",
+            "ई-इनव्हॉइस बनवणे आणि सरकारी विभागाकडून वेळेवर पेमेंट मिळवणे"
           ]
         }
       ]
     },
     keyTakeaways: {
       en: [
-        "Master the complete technical workflow of mahatenders.gov.in and gem.gov.in",
-        "Eliminate DSC signing failures and upload timeout issues forever",
-        "Find high-probability tenders before competitors without relying on brokers"
+        "Independent mastery over mahatenders.gov.in and gem.gov.in portals",
+        "Capability to secure both small direct quotation orders and large service tenders",
+        "Direct payment clearance knowledge without intermediaries"
       ],
       mr: [
-        "Mahatender आणि GeM Portal वर संपूर्ण प्रभुत्व",
-        "DSC Signing च्या सर्व अडचणींचे कायमचे निवारण",
-        "इतरांच्या आधी फायदेशीर टेंडर शोधण्याची क्षमता"
+        "Mahatender आणि GeM पोर्टलवर स्वतंत्रपणे काम करण्याचे संपूर्ण कौशल्य",
+        "थेट कोटेशन ऑर्डर्स आणि मोठे सेवा टेंडर स्वतः मिळवण्याची क्षमता",
+        "मध्यस्थांशिवाय वेळेवर सरकारी पेमेंट मिळवण्याची कार्यपद्धती"
       ]
     }
   },
   {
-    id: "tender-documentation-strategy",
-    price: 9,
-    originalPrice: 3499,
+    id: "employment-schemes-profitable-strategy",
+    price: 499,
+    originalPrice: 4999,
     num: "04",
     categoryTag: {
-      en: "STRATEGY",
-      mr: "बिडिंग रणनीती"
+      en: "STRATEGY & SCHEMES",
+      mr: "योजना व नफा रणनीती"
     },
     badge: "Strategy Special",
     category: "strategy",
@@ -435,25 +435,25 @@ export const coursesData = [
       mr: "बिडिंग"
     },
     titleImpact: {
-      en: "STRATEGY",
-      mr: "STRATEGY"
+      en: "STRATEGY & SCHEMES",
+      mr: "STRATEGY & SCHEMES"
     },
     title: {
-      en: "Bidding Strategy & Rate Analysis",
-      mr: "Bidding Strategy & Rate Analysis"
+      en: "Employment Schemes, Bidding Strategy & Profit Analysis",
+      mr: "रोजगार योजना, बिडिंग रणनीती व नफा व्यवस्थापन"
     },
     shortDesc: {
-      en: "Learn how to calculate profitable rates and win competitive government bids.",
-      mr: "टेंडर जिंकण्यासाठी अचूक Bidding Strategy आणि योग्य Rates ठरवणे शिका."
+      en: "Calculate profitable rates, leverage government employment schemes, and safeguard your profit margins.",
+      mr: "सरकारी रोजगार योजनांचा लाभ, अचूक दर ठरवणे आणि नफ्याचे सुरक्षित व्यवस्थापन शिका."
     },
     description: {
-      en: "Demystify comparative sheets, competitor analysis, overhead risk buffers, and APSD norms to protect profit margins.",
-      mr: "स्पर्धकांचे दर समजून घेणे, नफा टिकवून योग्य दर भरणे, APSD चे नियम आणि वर्क ऑर्डर मिळाल्यानंतर काम सुरक्षित करण्याचे कौशल्य."
+      en: "Demystify government subsidy schemes (CJMKY, PMEGP, Annasaheb Patil, Mudra), rate calculations for service tenders, competitor analysis, overhead risk buffers, and contract protections to maximize net profitability.",
+      mr: "सरकारी स्वयंरोजगार योजना (PMEGP, अण्णासाहेब पाटील महामंडळ, मुद्रा योजना), सेवा टेंडरचे दर ठरवणे, स्पर्धकांची रणनीती समजून घेणे, नफा टिकवून काम करणे आणि वर्क ऑर्डर मिळाल्यानंतर काम सुरक्षित करण्याचे प्रॅक्टिकल मार्गदर्शन."
     },
     image: "/courses/course_4.jpg",
     modulesCount: {
-      en: "11 Modules",
-      mr: "११ Modules"
+      en: "9 Modules",
+      mr: "९ Modules"
     },
     durationShort: {
       en: "6+ Hours",
@@ -467,95 +467,95 @@ export const coursesData = [
       en: "Advanced Strategy",
       mr: "Advanced Strategy (रणनीती)"
     },
-    slug: "tender-documentation-strategy",
+    slug: "employment-schemes-profitable-strategy",
     cta: {
-      en: "START FOR ₹9",
-      mr: "फक्त ₹९ मध्ये सुरू करा"
+      en: "START FOR ₹499",
+      mr: "फक्त ₹४९९ मध्ये सुरू करा"
     },
     targetAudience: {
-      en: "Contractors aiming to maximize profit margins and win tenders consistently.",
-      mr: "चांगला नफा ठेवून सातत्याने सरकारी कामे मिळवू इच्छिणारे कंत्राटदार व व्यावसायिक."
+      en: "Entrepreneurs, new contractors, and business owners aiming to maximize profit margins and leverage government schemes.",
+      mr: "सरकारी योजनांचा लाभ घेऊन चांगल्या नफ्यासह व्यवसाय व कंत्राट सुरू करू इच्छिणारे उद्योजक व व्यावसायिक."
     },
     prerequisites: {
-      en: "Experience with basic tender bidding and cost estimation.",
-      mr: "टेंडर भरण्याचा अनुभव आणि प्राथमिक अंदाजपत्रक माहिती."
+      en: "Interest in business setup, government tendering, or enterprise funding.",
+      mr: "व्यवसाय सुरू करण्याची किंवा सरकारी टेंडरमध्ये पुढे जाण्याची आवड."
     },
     modules: {
       en: [
         {
           number: "01",
-          title: "Competitor Analysis & Market Intelligence",
+          title: "Government Self-Employment Schemes & Subsidies",
           points: [
-            "Studying past winning bid data and tender comparative sheets",
-            "Identifying cartel behavior and competitive pricing patterns",
-            "Determining your competitive edge before submitting"
+            "PMEGP (up to 35% subsidy) and Chief Minister Employment Generation Program (CMEGP)",
+            "Annasaheb Patil Arthik Vikas Mahamandal interest-free loans for contractors",
+            "Mudra loans & machinery financing without collateral security"
           ]
         },
         {
           number: "02",
           title: "Financial Rate Analysis & Risk Buffers",
           points: [
-            "Overhead calculation, margin buffer, and GST impact",
-            "Above / Below (Minus) bidding risk assessment",
-            "Additional Performance Security Deposit (APSD) calculation"
+            "Calculating manpower overheads, uniform/gear cost, supervisor margin, and GST impact",
+            "Avoiding loss-making low bids (Minus/Underbidding hazards)",
+            "Security deposit, APSD, and bank guarantee management"
           ]
         },
         {
           number: "03",
-          title: "Post-Award Management & Contract Protection",
+          title: "Work Order Execution & Monthly Cash Flow Protection",
           points: [
-            "Agreement drafting, Security Deposit submission, and Work Order scrutiny",
-            "Price variation clauses and time extension procedures",
-            "Running bills verification and milestone tracking"
+            "Work order scrutiny, contract agreement drafting, and terms protection",
+            "Timely muster roll submission, statutory EPF/ESIC challan generation",
+            "Managing healthy cash flow for continuous business scalability"
           ]
         }
       ],
       mr: [
         {
           number: "०१",
-          title: "Competitor Analysis व Market माहिती",
+          title: "सरकारी स्वयंरोजगार योजना व अनुदान",
           points: [
-            "मागील जिंकलेल्या टेंडरचा अभ्यास व Comparative Sheets चे विश्लेषण",
-            "स्पर्धकांची बिडिंग पद्धत ओळखणे",
-            "टेंडर भरण्यापूर्वी आपली अचूक ताकद ओळखणे"
+            "PMEGP (३५% पर्यंत सबसिडी) व मुख्यमंत्री रोजगार निर्मिती कार्यक्रम (CMEGP)",
+            "अण्णासाहेब पाटील आर्थिक विकास महामंडळ बिनव्याजी कर्ज योजना",
+            "मुद्रा लोन आणि व्यवसाय सुरू करण्यासाठी विनातारण कर्ज प्रक्रिया"
           ]
         },
         {
           number: "०२",
-          title: "Rate Analysis व नफ्याचे नियोजन",
+          title: "Rate Analysis व नफ्याचे अचूक नियोजन",
           points: [
-            "कामाचा मूळ खर्च व Margin चे गणित",
-            "Above / Below Bidding ची रणनीती",
-            "APSD (अतिरिक्त सुरक्षा अनामत) चे नियम"
+            "मॅनपॉवरचा मूळ खर्च, गणवेश/साहित्य, सुपरवायझर खर्च व निव्वळ नफा",
+            "तोट्यात काम न करण्यासाठी माइनस/अंडर बिडिंगच्या धोक्यांपासून संरक्षण",
+            "सुरक्षा अनामत (Security Deposit) व बँक गॅरंटीचे नियम"
           ]
         },
         {
           number: "०३",
-          title: "Work Order नंतरचे व्यवस्थापन",
+          title: "वर्क ऑर्डर, बिलिंग व नियमित रोख प्रवाह (Cash Flow)",
           points: [
-            "Agreement व Work Order पडताळणी",
-            "मुदतवाढ नियम व Payment सुरक्षा",
-            "रनिंग बिले काढणे आणि खात्रीशीर पेमेंट मिळवणे"
+            "वर्क ऑर्डर व करारनाम्यातील अटींची तपासणी",
+            "वेळेवर मस्टर रोल सादर करणे व EPF/ESIC चे चालान जनरेट करणे",
+            "दरमहा नियमित पैसे मिळवून व्यवसायाचा विस्तार करणे"
           ]
         }
       ]
     },
     keyTakeaways: {
       en: [
+        "Access to government loans and subsidy schemes to fund your enterprise",
         "Expertise in rate calculation avoiding loss-making underbids",
-        "Strategic bidding techniques to win competitive tenders consistently",
-        "Confidence to handle high-value tenders and multi-crore bids"
+        "Structured system to build a long-term profitable contracting career"
       ],
       mr: [
-        "तोरा न होता काम जिंकून देणारे अचूक Rates ठरवण्याचे कौशल्य",
-        "स्पर्धेत सातत्याने टेंडर जिंकण्याची व्यावसायिक रणनीती",
-        "मोठ्या किमतीच्या कामांसाठी आत्मविश्वासाने Bidding करण्याची क्षमता"
+        "व्यवसाय सुरू करण्यासाठी सरकारी कर्ज व सबसिडी योजनांचा अचूक फायदा",
+        "तोट्यात न जाता खात्रीशीर नफा मिळवून देणारे दर ठरवण्याचे कौशल्य",
+        "दीर्घकालीन फायदेशीर कंत्राट व्यवसाय उभा करण्याचे परिपूर्ण नियोजन"
       ]
     }
   }
 ];
 
 // Helper to get courses filtered by price
-export const getCoursesByPrice = (price = 9) => {
+export const getCoursesByPrice = (price = 499) => {
   return coursesData.filter((course) => course.price === price);
 };

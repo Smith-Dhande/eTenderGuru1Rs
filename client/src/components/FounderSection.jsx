@@ -42,7 +42,7 @@ export const FounderSection = ({ onExploreClick }) => {
           <div className="founder-portrait-column">
             <div className="founder-portrait-frame">
               <img
-                src="/owner&founder/image.png"
+                src="/owner&founder/founder_speaking.jpg"
                 alt={t.roleTitle}
                 className="founder-portrait-img"
                 loading="lazy"

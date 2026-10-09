@@ -89,7 +89,7 @@ export const EnrollModal = ({ course, isOpen, onClose }) => {
             {/* Header */}
             <div className="mb-6">
               <span className="text-xs font-bold uppercase tracking-wider text-[#f15a24] bg-[#fff5f0] border border-[#f15a24]/20 px-2.5 py-1 rounded-full inline-block mb-2">
-                {language === 'mr' ? `अधिकृत ₹${course?.price === 9 ? '९' : course?.price || '९'} नोंदणी` : `Official ₹${course?.price || 9} Registration`}
+                {language === 'mr' ? `अधिकृत ₹${course?.price === 499 ? '४९९' : course?.price || '४९९'} नोंदणी` : `Official ₹${course?.price || 499} Registration`}
               </span>
               <h3 id="enroll-modal-title" className="text-2xl font-bold text-[#0f172a]">
                 {t.modalTitle}
@@ -106,7 +106,7 @@ export const EnrollModal = ({ course, isOpen, onClose }) => {
               </div>
               <div className="text-right">
                 <span className="text-xs text-[#64748b] block font-medium">{t.priceLabel}</span>
-                <span className="font-editorial-impact text-2xl text-[#f15a24]">₹{course?.price || 9}</span>
+                <span className="font-editorial-impact text-2xl text-[#f15a24]">₹{course?.price || 499}</span>
               </div>
             </div>
 
@@ -197,7 +197,7 @@ export const EnrollModal = ({ course, isOpen, onClose }) => {
             <div className="p-4 rounded-2xl bg-[#faf8f5] border border-[#e6e2db] mb-6 text-left">
               <div className="flex items-center justify-between text-xs text-[#64748b] mb-1">
                 <span>Course Activated:</span>
-                <span className="font-bold text-[#f15a24]">₹{course?.price || 9} Paid</span>
+                <span className="font-bold text-[#f15a24]">₹{course?.price || 499} Paid</span>
               </div>
               <p className="font-bold text-sm text-[#0f172a]">
                 {course?.title ? (course.title[language] || course.title.en) : `${titleSerif} ${titleImpact}`}

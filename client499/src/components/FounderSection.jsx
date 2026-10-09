@@ -103,7 +103,7 @@ export const FounderSection = ({ onExploreClick }) => {
                 className="founder-action-secondary"
                 onClick={onExploreClick}
               >
-                {t.coursesCta || 'EXPLORE ₹9 COURSES'}
+                {t.coursesCta || (language === 'mr' ? '₹४९९ कोर्सेस पहा' : 'EXPLORE ₹499 COURSES')}
               </button>
             </div>
 
