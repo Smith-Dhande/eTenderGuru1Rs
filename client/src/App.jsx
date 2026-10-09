@@ -12,6 +12,7 @@ import { FinalCTA } from './components/FinalCTA';
 import { Footer } from './components/Footer';
 import { CourseModal } from './components/CourseModal';
 import { EnrollModal } from './components/EnrollModal';
+import { RoadWorkTransition } from './components/RoadWorkTransition';
 
 function LandingPage() {
   const [selectedCourseForSyllabus, setSelectedCourseForSyllabus] = useState(null);
@@ -68,6 +69,9 @@ function LandingPage() {
           onOpenSyllabus={handleOpenSyllabus}
           onEnroll={handleOpenEnroll}
         />
+
+        {/* Minimal Scroll-Animated Road Roller + JCB Construction Doodle Transition */}
+        <RoadWorkTransition />
 
         {/* 6. 05 — COMMON QUESTIONS (FAQ Accordion) */}
         <FAQSection />
