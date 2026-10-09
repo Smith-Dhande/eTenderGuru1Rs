@@ -340,8 +340,6 @@ export const translations = {
       navFounder: "About the Instructor",
       legalTitle: "Important Disclaimer",
       disclaimer: "eTender Guru is an independent educational training platform. We provide practical coaching, procedural training, and guidance on public procurement portals. We are not an official government agency or tender issuing authority.",
-      privacyPolicy: "Privacy Policy",
-      refundPolicy: "Refund & Cancellation Policy",
       copyright: `© ${new Date().getFullYear()} eTender Guru. All Rights Reserved.`,
       builtWith: "Practical Road Tender Education"
     }
@@ -688,8 +686,6 @@ export const translations = {
       navFounder: "About Trainer",
       legalTitle: "महत्त्वाची Disclaimer सूचना",
       disclaimer: "eTender Guru हे एक स्वतंत्र Training व Educational प्लॅटफॉर्म आहे. आम्ही सरकारी टेंडर प्रक्रियांचे Practical प्रशिक्षण देतो. आम्ही कोणतीही सरकारी संस्था किंवा टेंडर जारी करणारे कार्यालय नाही.",
-      privacyPolicy: "Privacy Policy (गोपनीयता धोरण)",
-      refundPolicy: "Refund & Cancellation Policy (रिफंड धोरण)",
       copyright: `© ${new Date().getFullYear()} eTender Guru. सर्व हक्क सुरक्षित.`,
       builtWith: "Practical Road Tender Training"
     }

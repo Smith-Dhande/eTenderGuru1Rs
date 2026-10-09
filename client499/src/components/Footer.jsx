@@ -104,28 +104,33 @@ export const Footer = ({ onOpenPolicy }) => {
               <h4 className="footer-col-title">{t.navTitle}</h4>
               <ul className="footer-nav-list">
                 <li>
-                  <button type="button" onClick={() => scrollToSection('courses')}>
-                    {t.navCourses}
+                  <button type="button" onClick={() => scrollToSection('session-details')}>
+                    {t.navSession || (language === 'mr' ? 'सेशनबद्दल' : 'About Session')}
                   </button>
                 </li>
                 <li>
-                  <button type="button" onClick={() => scrollToSection('why-nine-rupee')}>
-                    {language === 'mr' ? '₹९ मध्ये का?' : 'Why ₹9 Courses?'}
+                  <button type="button" onClick={() => scrollToSection('who-is-this-for')}>
+                    {t.navWhoIsItFor || (language === 'mr' ? 'कोणासाठी?' : 'Who Is This For')}
                   </button>
                 </li>
                 <li>
-                  <button type="button" onClick={() => scrollToSection('how-it-works')}>
-                    {language === 'mr' ? 'कसे सुरू करावे' : 'How It Works'}
+                  <button type="button" onClick={() => scrollToSection('curriculum')}>
+                    {t.navCurriculum || (language === 'mr' ? 'काय शिकणार?' : 'Curriculum')}
                   </button>
                 </li>
                 <li>
                   <button type="button" onClick={() => scrollToSection('about')}>
-                    {t.navFounder}
+                    {t.navFounder || (language === 'mr' ? 'मार्गदर्शक व्यक्ती' : 'About Instructor')}
+                  </button>
+                </li>
+                <li>
+                  <button type="button" onClick={() => scrollToSection('how-to-register')}>
+                    {language === 'mr' ? 'नोंदणी कशी करावी' : 'How To Register'}
                   </button>
                 </li>
                 <li>
                   <button type="button" onClick={() => scrollToSection('faq')}>
-                    {language === 'mr' ? 'नेहमीचे प्रश्न' : 'FAQ'}
+                    {t.navFaq || (language === 'mr' ? 'नेहमीचे प्रश्न' : 'FAQ')}
                   </button>
                 </li>
               </ul>
