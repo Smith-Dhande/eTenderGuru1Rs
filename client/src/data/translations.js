@@ -20,9 +20,9 @@ export const translations = {
     // 01 — Hero Section (eTender Guru Editorial Style — ₹9 Road Tender Course)
     hero: {
       label: "₹9 THEKEDARI — ROAD TENDER INFORMATION",
-      headlineBold: "Road",
-      headlineImpact: "TENDERS",
-      headlineHighlight: "AT ₹9.",
+      headlineBold: "Understand ",
+      headlineImpact: "ROAD TENDERS",
+      headlineHighlight: "FOR JUST ₹9.",
       cta: "MEET THE FOUNDER ",
       altFounder: "eTender Guru Founder - Government Tender Trainer & Expert"
     },
@@ -145,8 +145,8 @@ export const translations = {
     // 01 — Course Section (01 — LEARN)
     coursesSection: {
       eyebrow: "01 — LEARN",
-      titleSerif: "Road Tender Information",
-      titleImpact: "₹9 THEKEDARI",
+      titleSerif: "Explore Our Programs.",
+      titleImpact: "FOR JUST ₹9",
       support: "Step-by-step, practical courses to help you understand road tenders, technical filings, and government contracts. Start any course today for just ₹9.",
       explore: "Start for ₹9",
       badgePrice: "₹9 Only"
@@ -491,8 +491,8 @@ export const translations = {
     // 01 — Course Section (01 — शिका)
     coursesSection: {
       eyebrow: "०१ — शिका",
-      titleSerif: "Road Tender Information",
-      titleImpact: "₹९ ठेकेदारी",
+      titleSerif: "आमचे कोर्सेस पहा.",
+      titleImpact: "फक्त ₹९ मध्ये",
       support: "रस्ते टेंडर, तांत्रिक कागदपत्रे आणि सरकारी कंत्राट पद्धत फक्त ₹९ मध्ये आजच समजून घ्या.",
       explore: "फक्त ₹९ मध्ये सुरू करा",
       badgePrice: "फक्त ₹९"
